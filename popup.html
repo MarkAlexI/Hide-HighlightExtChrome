@@ -5,12 +5,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="styles/popup.css">
-  <title></title>
+  <title>Hide & Highlight</title>
 </head>
 
 <body>
+  <div class="container">
+    <h2>Hide & Highlight Extension</h2>
+    <p>Use this extension to blur or highlight specific text on the page.</p>
 
-<script src="scripts/popup.js"></script>
+    <label for="toggle-visibility">Enable Text Modification:</label>
+    <label class="toggle-switch">
+      <input id="toggle-visibility" type="checkbox">
+      <span class="switch-slider"></span>
+    </label>
+
+    <label for="mode-select">Select Mode:</label>
+    <select id="mode-select">
+      <option value="blur">Blur</option>
+      <option value="highlight">Highlight</option>
+    </select>
+
+    <input class="text-input" id="blur-text" type="text" placeholder="Enter keyword to modify">
+  </div>
+  <script src="scripts/popup.js"></script>
 </body>
 
 </html>
