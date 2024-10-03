@@ -11,7 +11,6 @@ const applyEffect = (element, mode) => {
   } else if (mode === "highlight") {
     element.style.cssText = highlightEffect;
   }
-  console.debug(`Modified: ${element.tagName} with text: ${element.textContent}`);
 };
 
 const scanNode = (node) => {

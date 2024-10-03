@@ -94,3 +94,19 @@ select {
   border: 1px solid #ddd;
   border-radius: 4px;
 }
+
+#reload {
+  background-color: lightgoldenrodyellow;
+  margin-top: 16px;
+  padding: .5rem;
+  font-size: 16px;
+  color: #000;
+  border: 2px solid darkgoldenrod;
+  border-radius: .5rem;
+  transition: all .5s;
+}
+
+#reload:hover {
+  border-width: 4px;
+  background-color: gold;
+}

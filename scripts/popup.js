@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 const updateBadge = (isActive = false) => {
   const label = isActive ? "ON" : "OFF";
@@ -8,9 +8,16 @@ const updateBadge = (isActive = false) => {
   chrome.action.setBadgeBackgroundColor({ 'color': badgeColor });
 };
 
+const reload = () => {
+  chrome.tabs.query({ active: true, currentWindow: true }, function(tabs) {
+    chrome.tabs.reload(tabs[0].id);
+  });
+};
+
 const toggleSwitch = document.getElementById("toggle-visibility");
 const textInput = document.getElementById("blur-text");
 const modeSelect = document.getElementById("mode-select");
+const reloadBtn = document.getElementById("reload");
 
 chrome.storage.sync.get(["isActive", "targetText", "mode"], (data) => {
   toggleSwitch.checked = !!data.isActive;
@@ -33,4 +40,8 @@ textInput.addEventListener("input", (event) => {
 modeSelect.addEventListener("change", (event) => {
   const selectedMode = event.target.value;
   chrome.storage.sync.set({ "mode": selectedMode });
+});
+
+reloadBtn.addEventListener("click", () => {
+  reload();
 });
