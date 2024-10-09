@@ -1,7 +1,7 @@
 "use strict";
 
 const blurEffect = "blur(8px)";
-const highlightEffect = "font-weight: bold; font-size: 1.5em;";
+const highlightEffect = "font-weight: bold; font-size: 1.5em; color: #ff5722; text-shadow: 2px 2px 4px rgba(128, 0, 0, 0.4);";
 let targetText = "";
 let mode = "blur";
 

@@ -1,6 +1,10 @@
 body {
   min-width: 10rem;
+  min-height: 32rem;
   background-color: lightblue;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .container {
@@ -15,18 +19,18 @@ body {
 
 h2 {
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 p {
   margin-bottom: 15px;
-  font-size: 14px;
+  font-size: 1.2rem;
   color: #555;
 }
 
 label {
   margin: 5px 0;
-  font-size: 14px;
+  font-size: 1.2rem;
 }
 
 .toggle-switch {
@@ -72,34 +76,34 @@ input:checked+.switch-slider:before {
   transform: translateX(26px);
 }
 
-.text-input {
-  margin-top: 10px;
-  padding: 8px;
-  width: 80%;
-  font-size: 16px;
+.text-input,
+select {
+  margin-top: .8rem;
+  padding: .5rem;
+  width: 100%;
+  font-size: 1.1rem;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
 
-select,
-input {
-  max-width: 200px;
+.text-input {
+  max-width: 20rem;
 }
 
 select {
-  margin-bottom: 10px;
-  padding: 5px;
-  font-size: 16px;
-  width: 80%;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  max-width: 21rem;
 }
 
 #reload {
+  display: none;
   background-color: lightgoldenrodyellow;
-  margin-top: 16px;
+  margin-top: 1rem;
   padding: .5rem;
-  font-size: 16px;
+  width: 100%;
+  max-width: 8rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: cursive;
   color: #000;
   border: 2px solid darkgoldenrod;
   border-radius: .5rem;
