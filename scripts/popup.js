@@ -24,6 +24,7 @@ chrome.storage.sync.get(["isActive", "targetText", "mode"], (data) => {
   updateBadge(data.isActive);
   textInput.value = data.targetText || "";
   modeSelect.value = data.mode || "blur";
+  reloadBtn.style.display = isActive ? "block" : "none";
 });
 
 toggleSwitch.addEventListener("change", (event) => {
