@@ -32,6 +32,11 @@ toggleSwitch.addEventListener("change", (event) => {
   chrome.storage.sync.set({ "isActive": isActive });
   updateBadge(isActive);
   reloadBtn.style.display = isActive ? "block" : "none";
+  
+  if (!isActive) {
+    textInput.value = '';
+    reload();
+  }
 });
 
 textInput.addEventListener("input", (event) => {

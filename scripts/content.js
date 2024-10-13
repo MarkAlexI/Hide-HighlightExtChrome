@@ -20,7 +20,7 @@ const scanNode = (node) => {
   if (node.nodeType === Node.TEXT_NODE && node.textContent.trim()) {
     const parentElem = node.parentElement;
     if (parentElem && !["SCRIPT"].includes(parentElem.tagName)) {
-      if (node.textContent.includes(targetText)) {
+      if (node.textContent.toLowerCase().includes(targetText.toLowerCase())) {
         applyEffect(parentElem, mode);
       }
     }
