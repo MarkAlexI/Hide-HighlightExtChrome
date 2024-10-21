@@ -4,6 +4,7 @@ const blurEffect = "blur(8px)";
 const highlightEffect = "font-weight: bold; font-size: 1.5em; color: #ff5722; text-shadow: 2px 2px 4px rgba(128, 0, 0, 0.4);";
 let targetText = "";
 let mode = "blur";
+let isActive = false;
 
 const applyEffect = (element, mode) => {
   if (mode === "blur") {
@@ -11,6 +12,14 @@ const applyEffect = (element, mode) => {
   } else if (mode === "highlight") {
     element.style.cssText = highlightEffect;
   }
+};
+
+const removeEffect = (element) => {
+  element.style.filter = "";
+  element.style.fontWeight = "";
+  element.style.fontSize = "";
+  element.style.color = "";
+  element.style.textShadow = "";
 };
 
 const scanNode = (node) => {
@@ -21,7 +30,11 @@ const scanNode = (node) => {
     const parentElem = node.parentElement;
     if (parentElem && !["SCRIPT"].includes(parentElem.tagName)) {
       if (node.textContent.toLowerCase().includes(targetText.toLowerCase())) {
-        applyEffect(parentElem, mode);
+        if (isActive) {
+          applyEffect(parentElem, mode);
+        } else {
+          removeEffect(parentElem);
+        }
       }
     }
   }
@@ -37,14 +50,36 @@ const observer = new MutationObserver((mutations) => {
   });
 });
 
-let isActive = true;
+const updateObserver = () => {
+  observer.disconnect();
+
+  if (isActive && targetText.trim()) {
+    observer.observe(document, { childList: true, subtree: true });
+    scanNode(document);
+  } else if (!isActive) {
+    scanNode(document);
+  }
+};
 
 chrome.storage.sync.get(["isActive", "targetText", "mode"], (data) => {
   isActive = data.isActive !== false;
   targetText = data.targetText || "";
   mode = data.mode || "blur";
-  if (isActive && targetText.trim()) {
-    observer.observe(document, { childList: true, subtree: true });
-    scanNode(document);
+
+  if (isActive) updateObserver();
+});
+
+chrome.storage.onChanged.addListener((changes) => {
+  if (changes.isActive) {
+    isActive = changes.isActive.newValue !== false;
+  }
+  if (changes.targetText) {
+    targetText = changes.targetText.newValue || "";
+  }
+  if (changes.mode) {
+    mode = changes.mode.newValue || "blur";
+  }
+  if (changes.timestamp) {
+    updateObserver();
   }
 });

@@ -8,9 +8,11 @@ const updateBadge = (isActive = false) => {
   chrome.action.setBadgeBackgroundColor({ 'color': badgeColor });
 };
 
-const reload = () => {
-  chrome.tabs.query({ active: true, currentWindow: true }, function(tabs) {
-    chrome.tabs.reload(tabs[0].id);
+const apply = () => {
+  chrome.storage.sync.remove(["timestamp"], () => {
+    chrome.storage.sync.set({
+      "timestamp": Date.now()
+    });
   });
 };
 
@@ -29,17 +31,35 @@ chrome.storage.sync.get(["isActive", "targetText", "mode"], (data) => {
 
 toggleSwitch.addEventListener("change", (event) => {
   const isActive = event.target.checked;
-  chrome.storage.sync.set({ "isActive": isActive });
+  
+  chrome.storage.sync.set({
+    "isActive": isActive,
+    "timestamp": Date.now()
+  });
   updateBadge(isActive);
   reloadBtn.style.display = isActive ? "block" : "none";
   
   if (!isActive) {
     textInput.value = '';
-    reload();
+    chrome.storage.sync.set({
+      "targetText": textInput.value
+    })
+    apply();
   }
 });
 
-textInput.addEventListener("input", (event) => {
+reloadBtn.addEventListener("click", () => {
+  const inputValue = textInput.value;
+  const selectedMode = modeSelect.value;
+
+  chrome.storage.sync.set({
+    "targetText": inputValue,
+    "mode": selectedMode
+  }, () => {
+    apply();
+  });
+});
+/*textInput.addEventListener("input", (event) => {
   const inputValue = event.target.value;
   chrome.storage.sync.set({ "targetText": inputValue });
 });
@@ -48,7 +68,21 @@ modeSelect.addEventListener("change", (event) => {
   const selectedMode = event.target.value;
   chrome.storage.sync.set({ "mode": selectedMode });
 });
+*/
+/*reloadBtn.addEventListener("click", () => {
+  const inputValue = textInput.value;
+  const selectedMode = modeSelect.value;
 
-reloadBtn.addEventListener("click", () => {
-  reload();
-});
+  // Зберігаємо значення тексту та режиму в chrome.storage
+  chrome.storage.sync.set({
+    "targetText": inputValue,
+    "mode": selectedMode,
+    "timestamp": Date.now() // Оновлюємо timestamp, щоб зміни застосувалися
+  });
+  
+  apply();
+});*/
+
+/*reloadBtn.addEventListener("click", () => {
+  apply();
+});*/
