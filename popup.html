@@ -11,7 +11,7 @@
 <body>
   <div class="container">
     <h2>Hide & Highlight Extension</h2>
-    <p>Use this extension to blur or highlight specific text on the page.</p>
+    <p>Use this extension to blur or highlight specific text on the page. Allow text modification to apply styles.</p>
 
     <label for="toggle-visibility">Enable Text Modification:</label>
     <label class="toggle-switch">
@@ -26,6 +26,16 @@
     </select>
 
     <input class="text-input" id="blur-text" type="text" placeholder="Enter keyword to modify">
+    <div class="select-color hidden" id="select-color">
+      <div class="color-group">
+        <p>Select color of text:</p>
+        <input type="color" id="text-color" value="#ff5722">
+      </div>
+      <div class="color-group">
+        <p>Select color of shadow:</p>
+        <input type="color" id="shadow-color" value="#ff0000">
+      </div>
+    </div>
     <button id="reload">Apply rule</button>
   </div>
   <script src="scripts/popup.js"></script>

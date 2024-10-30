@@ -90,8 +90,43 @@ select {
   max-width: 20rem;
 }
 
-select {
+select, .select-color {
   max-width: 21rem;
+}
+
+.select-color {
+  display: flex;
+  flex-direction: column;
+  margin-top: .8rem;
+  width: 95%;
+}
+
+.hidden {
+  display: none;
+}
+
+.color-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.color-group p {
+  flex: 1;
+  margin: 0;
+  padding-right: 10px;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.color-group input[type=color] {
+  flex-shrink: 0;
+  width: 60px;
+  height: 34px;
+  border: none;
+  cursor: pointer;
 }
 
 #reload {
@@ -107,6 +142,7 @@ select {
   color: #000;
   border: 2px solid darkgoldenrod;
   border-radius: .5rem;
+  cursor: pointer;
   transition: all .5s;
 }
 
