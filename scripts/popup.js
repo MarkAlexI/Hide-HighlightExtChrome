@@ -43,8 +43,6 @@ toggleSwitch.addEventListener("change", (event) => {
 
   chrome.storage.sync.set({
     "isActive": isActive,
-    "textColor": textColor.value,
-    "shadowColor": shadowColor.value,
     "timestamp": Date.now()
   });
   updateBadge(isActive);
@@ -54,9 +52,23 @@ toggleSwitch.addEventListener("change", (event) => {
     textInput.value = '';
     chrome.storage.sync.set({
       "targetText": textInput.value
-    })
+    });
     apply();
   }
+});
+
+textColor.addEventListener("input", () => {
+  chrome.runtime.sendMessage({
+    action: "updateTextColor",
+    value: textColor.value
+  });
+});
+
+shadowColor.addEventListener("input", () => {
+  chrome.runtime.sendMessage({
+    action: "updateShadowColor",
+    value: shadowColor.value
+  });
 });
 
 modeSelect.addEventListener("change", () => {
@@ -72,8 +84,6 @@ reloadBtn.addEventListener("click", () => {
   const selectedMode = modeSelect.value;
 
   chrome.storage.sync.set({
-    "textColor": textColor.value,
-    "shadowColor": shadowColor.value,
     "targetText": inputValue,
     "mode": selectedMode
   }, () => {
