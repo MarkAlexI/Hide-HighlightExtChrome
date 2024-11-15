@@ -16,11 +16,3 @@ const initialize = () => {
 
 chrome.runtime.onStartup.addListener(initialize);
 chrome.runtime.onInstalled.addListener(updateBadge);
-
-chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-  if (message.action === "updateTextColor") {
-    chrome.storage.sync.set({ "textColor": message.value });
-  } else if (message.action === "updateShadowColor") {
-    chrome.storage.sync.set({ "shadowColor": message.value });
-  }
-});

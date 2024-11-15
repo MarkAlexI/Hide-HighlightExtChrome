@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styles/popup.css">
+  <link rel="stylesheet" href="styles/main.css">
   <title>Hide & Highlight</title>
 </head>
 
@@ -29,14 +29,14 @@
     <div class="select-color hidden" id="select-color">
       <div class="color-group">
         <p>Select color of text:</p>
-        <input type="color" id="text-color" value="#ff5722">
+        <div class="color-div" id="text-color"></div>
       </div>
       <div class="color-group">
         <p>Select color of shadow:</p>
-        <input type="color" id="shadow-color" value="#ff0000">
+        <div class="color-div" id="shadow-color"></div>
       </div>
     </div>
-    <button id="reload">Apply rule</button>
+    <button class="btn" id="reload">Apply rule</button>
   </div>
   <script src="scripts/popup.js"></script>
 </body>

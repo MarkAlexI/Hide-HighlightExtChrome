@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Hide & Highlight",
-  "version": "1.12",
+  "version": "1.13",
   "icons": {
     "16": "images/icon-16.png",
     "32": "images/icon-32.png",
@@ -16,6 +16,7 @@
       "32": "images/icon-32.png"
     }
   },
+  "options_page": "options/color-options.html",
   "permissions": [
     "storage",
     "tabs"

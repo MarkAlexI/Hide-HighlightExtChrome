@@ -29,8 +29,8 @@ chrome.storage.sync.get(["isActive", "targetText", "mode", "textColor", "shadowC
   updateBadge(data.isActive);
   textInput.value = data.targetText || "";
   modeSelect.value = data.mode || "blur";
-  textColor.value = data.textColor || "#ff5722";
-  shadowColor.value = data.shadowColor || "#ff0000";
+  textColor.style.backgroundColor = data.textColor || "#ff5722";
+  shadowColor.style.backgroundColor = data.shadowColor || "#ff0000";
   reloadBtn.style.display = data.isActive ? "block" : "none";
 
   if (modeSelect.value === "highlight") {
@@ -57,18 +57,16 @@ toggleSwitch.addEventListener("change", (event) => {
   }
 });
 
-textColor.addEventListener("input", () => {
-  chrome.runtime.sendMessage({
-    action: "updateTextColor",
-    value: textColor.value
-  });
+textColor.addEventListener("click", () => {
+  chrome.runtime.openOptionsPage ?
+    chrome.runtime.openOptionsPage() :
+    chrome.tabs.create({ url: chrome.runtime.getURL("options/color-options.html") });
 });
 
-shadowColor.addEventListener("input", () => {
-  chrome.runtime.sendMessage({
-    action: "updateShadowColor",
-    value: shadowColor.value
-  });
+shadowColor.addEventListener("click", () => {
+  chrome.runtime.openOptionsPage ?
+    chrome.runtime.openOptionsPage() :
+    chrome.tabs.create({ url: chrome.runtime.getURL("options/color-options.html") });
 });
 
 modeSelect.addEventListener("change", () => {
@@ -89,4 +87,13 @@ reloadBtn.addEventListener("click", () => {
   }, () => {
     apply();
   });
+});
+
+chrome.storage.onChanged.addListener((changes) => {
+      if (changes.textColor) {
+        textColor.style.backgroundColor = changes.textColor.newValue;
+      }
+      if (changes.shadowColor) {
+        shadowColor.style.backgroundColor = changes.shadowColor.newValue;
+      }
 });
