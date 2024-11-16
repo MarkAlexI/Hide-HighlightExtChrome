@@ -1,6 +1,7 @@
 body {
-  min-width: 14rem;
+  min-width: 16rem;
   min-height: 38rem;
+  height: auto;
   background-color: lightblue;
   box-sizing: border-box;
   font-size: 16px;
