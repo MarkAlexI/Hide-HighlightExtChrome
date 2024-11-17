@@ -5,41 +5,43 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="styles/main.css">
-  <title>Hide & Highlight</title>
+  <title data-i18n="defaulttitle"></title>
 </head>
 
 <body>
   <div class="container">
-    <h2>Hide & Highlight Extension</h2>
-    <p>Use this extension to blur or highlight specific text on the page. Allow text modification to apply styles.</p>
-    <p>The text of the web page on which this popup is called is modified.</p>
+    <h2 data-i18n="header"></h2>
+    <p data-i18n="info1"></p>
+    <p data-i18n="info2"></p>
 
-    <label for="toggle-visibility">Enable Text Modification:</label>
+    <label for="toggle-visibility" data-i18n="enable"></label>
     <label class="toggle-switch">
       <input id="toggle-visibility" type="checkbox">
       <span class="switch-slider"></span>
     </label>
 
-    <label for="mode-select">Select Mode:</label>
+    <label for="mode-select" data-i18n="selectmode"></label>
     <select id="mode-select">
-      <option value="blur">Blur</option>
-      <option value="highlight">Highlight</option>
+      <option value="blur" data-i18n="bluroption"></option>
+      <option value="highlight" data-i18n="highlightoption"></option>
     </select>
 
-    <input class="text-input" id="blur-text" type="text" placeholder="Enter keyword to modify">
+    <input class="text-input" id="blur-text" type="text" placeholder="i18n" data-i18n="placeholder">
     <div class="select-color hidden" id="select-color">
-      <p>You can change the colors. After that, you need to close the options page and reopen this pop-up on the desired page.</p>
+      <p data-i18n="info3"></p>
       <div class="color-group">
-        <p>Select color of text:</p>
+        <p data-i18n="selectcolortext"></p>
         <div class="color-div" id="text-color"></div>
       </div>
       <div class="color-group">
-        <p>Select color of shadow:</p>
+        <p data-i18n="selectcolorshadow"></p>
         <div class="color-div" id="shadow-color"></div>
       </div>
     </div>
-    <button class="btn" id="reload">Apply rule</button>
+    <button class="btn" id="reload" data-i18n="applyrule"></button>
   </div>
+  
+  <script src="scripts/i18n.js"></script>
   <script src="scripts/popup.js"></script>
 </body>
 

@@ -1,15 +1,17 @@
 {
   "manifest_version": 3,
-  "name": "Hide & Highlight",
-  "version": "1.14",
+  "name": "__MSG_chromename__",
+  "version": "1.15",
+  "author": "MarkAlexI",
+  "default_locale": "en",
   "icons": {
     "16": "images/icon-16.png",
     "32": "images/icon-32.png",
     "192": "images/icon-192.png"
   },
-  "description": "\"Hide & Highlight\" allows you to hide or highlight any text nodes on web pages for convenient display to other people.",
+  "description": "__MSG_description__",
   "action": {
-    "default_title": "Hide & Highlight your text",
+    "default_title": "__MSG_defaulttitle__",
     "default_popup": "popup.html",
     "default_icon": {
       "16": "images/icon-16.png",

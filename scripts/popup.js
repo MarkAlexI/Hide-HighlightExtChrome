@@ -90,10 +90,10 @@ reloadBtn.addEventListener("click", () => {
 });
 
 chrome.storage.onChanged.addListener((changes) => {
-      if (changes.textColor) {
-        textColor.style.backgroundColor = changes.textColor.newValue;
-      }
-      if (changes.shadowColor) {
-        shadowColor.style.backgroundColor = changes.shadowColor.newValue;
-      }
+  if (changes.textColor) {
+    textColor.style.backgroundColor = changes.textColor.newValue;
+  }
+  if (changes.shadowColor) {
+    shadowColor.style.backgroundColor = changes.shadowColor.newValue;
+  }
 });
