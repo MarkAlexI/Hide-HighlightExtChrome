@@ -1,7 +1,7 @@
 {
   "chromename": { "message": "Hide & Highlight" },
   "description": { "message": "\"Hide & Highlight\" allows you to hide or highlight any text nodes on web pages for convenient display to other people." },
-  "defaulttitle": { "message": "Hide & Highlight your text" },
+  "defaulttitle": { "message": "Modify visibility of important text" },
   "header": { "message": "Hide & Highlight Extension" },
   "info1": { "message": "Use this extension to blur or highlight specific text on the page. Allow text modification to apply styles." },
   "info2": { "message": "The text of the web page on which this popup is called is modified." },
