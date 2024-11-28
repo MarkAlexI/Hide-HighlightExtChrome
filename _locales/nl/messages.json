@@ -1,0 +1,23 @@
+{
+  "chromename": { "message": "Verbergen en Markeren" },
+  "description": { "message": "\"Verbergen en Markeren\" stelt u in staat om willekeurige tekstknooppunten op webpagina's te verbergen of te markeren, zodat ze gemakkelijk aan anderen kunnen worden getoond." },
+  "defaulttitle": { "message": "Pas de zichtbaarheid van belangrijke tekst aan" },
+  "header": { "message": "Extensie \"Verbergen en Markeren\"" },
+  "info1": { "message": "Gebruik deze extensie om specifieke tekst op de pagina te vervagen of te markeren. Schakel tekstwijziging in om stijlen toe te passen." },
+  "info2": { "message": "De tekst van de webpagina waarop dit pop-upvenster is geopend, wordt aangepast." },
+  "enable": { "message": "Tekstwijziging inschakelen:" },
+  "selectmode": { "message": "Selecteer modus:" },
+  "bluroption": { "message": "Vervagen" },
+  "highlightoption": { "message": "Markeren" },
+  "placeholder": { "message": "Voer een trefwoord in om te wijzigen" },
+  "info3": { "message": "U kunt de kleuren wijzigen. Daarna moet u de optiepagina sluiten en dit pop-upvenster opnieuw openen op de gewenste pagina." },
+  "selectcolortext": { "message": "Kies de tekstkleur:" },
+  "selectcolorshadow": { "message": "Kies de schaduwkleur:" },
+  "applyrule": { "message": "Regel toepassen" },
+  "optionstitle": { "message": "Kleuropties" },
+  "optionsheader": { "message": "Kleuren selecteren" },
+  "optionsinfo": { "message": "Selecteer de gewenste kleuren, druk op \"Opslaan\", sluit deze pagina en open het pop-upvenster opnieuw (het pictogram van deze extensie rechtsboven in het browservenster) op de gewenste pagina." },
+  "textcolor": { "message": "Tekstkleur: " },
+  "shadowcolor": { "message": "Schaduwkleur: " },
+  "savebutton": { "message": "Opslaan" }
+}

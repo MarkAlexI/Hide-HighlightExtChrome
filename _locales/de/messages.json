@@ -1,0 +1,23 @@
+{
+  "chromename": { "message": "Ausblenden & Hervorheben" },
+  "description": { "message": "\"Ausblenden & Hervorheben\" ermöglicht es, beliebige Textknoten auf Webseiten auszublenden oder hervorzuheben, um sie anderen Personen besser anzuzeigen." },
+  "defaulttitle": { "message": "Sichtbarkeit wichtiger Texte ändern" },
+  "header": { "message": "Erweiterung \"Ausblenden & Hervorheben\"" },
+  "info1": { "message": "Verwenden Sie diese Erweiterung, um bestimmten Text auf der Seite zu verwischen oder hervorzuheben. Aktivieren Sie die Textänderung, um Stile anzuwenden." },
+  "info2": { "message": "Der Text der Webseite, auf der dieses Popup geöffnet wurde, wird verändert." },
+  "enable": { "message": "Textänderung aktivieren:" },
+  "selectmode": { "message": "Modus auswählen:" },
+  "bluroption": { "message": "Verwischen" },
+  "highlightoption": { "message": "Hervorheben" },
+  "placeholder": { "message": "Schlüsselwort für Änderung eingeben" },
+  "info3": { "message": "Sie können die Farben ändern. Danach müssen Sie die Optionsseite schließen und dieses Popup auf der gewünschten Seite erneut öffnen." },
+  "selectcolortext": { "message": "Farbe des Textes auswählen:" },
+  "selectcolorshadow": { "message": "Farbe des Schattens auswählen:" },
+  "applyrule": { "message": "Regel anwenden" },
+  "optionstitle": { "message": "Farboptionen" },
+  "optionsheader": { "message": "Farben auswählen" },
+  "optionsinfo": { "message": "Wählen Sie die gewünschten Farben, klicken Sie auf \"Speichern\", schließen Sie diese Seite und öffnen Sie das Popup (Symbol dieser Erweiterung oben rechts im Browserfenster) auf der gewünschten Seite erneut." },
+  "textcolor": { "message": "Textfarbe: " },
+  "shadowcolor": { "message": "Schattenfarbe: " },
+  "savebutton": { "message": "Speichern" }
+}

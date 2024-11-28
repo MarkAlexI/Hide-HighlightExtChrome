@@ -1,0 +1,23 @@
+{
+  "chromename": { "message": "非表示とハイライト" },
+  "description": { "message": "「非表示とハイライト」は、ウェブページ上の任意のテキストノードを非表示またはハイライトし、他の人に便利に表示することができます。" },
+  "defaulttitle": { "message": "重要なテキストの表示を変更する" },
+  "header": { "message": "「非表示とハイライト」拡張機能" },
+  "info1": { "message": "この拡張機能を使用して、ページ上の特定のテキストをぼかしたりハイライトしたりできます。スタイルを適用するにはテキストの変更を有効にしてください。" },
+  "info2": { "message": "このポップアップが呼び出されたウェブページのテキストが変更されます。" },
+  "enable": { "message": "テキスト変更を有効にする：" },
+  "selectmode": { "message": "モードを選択：" },
+  "bluroption": { "message": "ぼかし" },
+  "highlightoption": { "message": "ハイライト" },
+  "placeholder": { "message": "変更するキーワードを入力してください" },
+  "info3": { "message": "色を変更できます。その後、オプションページを閉じ、このポップアップを再度開いてください。" },
+  "selectcolortext": { "message": "テキストの色を選択：" },
+  "selectcolorshadow": { "message": "影の色を選択：" },
+  "applyrule": { "message": "ルールを適用" },
+  "optionstitle": { "message": "色のオプション" },
+  "optionsheader": { "message": "色を選択" },
+  "optionsinfo": { "message": "希望する色を選択し、「保存」を押して、このページを閉じてください。その後、目的のページでこのポップアップ（ブラウザウィンドウの右上にあるこの拡張機能のアイコン）を再度開いてください。" },
+  "textcolor": { "message": "テキストの色：" },
+  "shadowcolor": { "message": "影の色：" },
+  "savebutton": { "message": "保存" }
+}

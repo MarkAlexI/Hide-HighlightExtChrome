@@ -1,0 +1,23 @@
+{
+  "chromename": { "message": "隐藏与高亮" },
+  "description": { "message": "“隐藏与高亮”允许您隐藏或高亮网页上的任何文本节点，以便更方便地展示给他人。" },
+  "defaulttitle": { "message": "修改重要文本的可见性" },
+  "header": { "message": "“隐藏与高亮”扩展" },
+  "info1": { "message": "使用此扩展可模糊或高亮页面上的特定文本。启用文本修改以应用样式。" },
+  "info2": { "message": "此弹窗调用的网页文本将被修改。" },
+  "enable": { "message": "启用文本修改：" },
+  "selectmode": { "message": "选择模式：" },
+  "bluroption": { "message": "模糊" },
+  "highlightoption": { "message": "高亮" },
+  "placeholder": { "message": "输入关键词进行修改" },
+  "info3": { "message": "您可以更改颜色。之后需要关闭设置页面并在所需页面重新打开此弹窗。" },
+  "selectcolortext": { "message": "选择文本颜色：" },
+  "selectcolorshadow": { "message": "选择阴影颜色：" },
+  "applyrule": { "message": "应用规则" },
+  "optionstitle": { "message": "颜色选项" },
+  "optionsheader": { "message": "选择颜色" },
+  "optionsinfo": { "message": "选择所需颜色，点击“保存”，关闭此页面，然后在所需页面重新打开弹窗（浏览器窗口右上角的此扩展图标）。" },
+  "textcolor": { "message": "文本颜色：" },
+  "shadowcolor": { "message": "阴影颜色：" },
+  "savebutton": { "message": "保存" }
+}

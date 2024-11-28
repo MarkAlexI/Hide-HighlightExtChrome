@@ -1,0 +1,23 @@
+{
+  "chromename": { "message": "Masquer et Mettre en Évidence" },
+  "description": { "message": "\"Masquer et Mettre en Évidence\" vous permet de masquer ou de mettre en évidence n'importe quel nœud de texte sur les pages web pour un affichage pratique à d'autres personnes." },
+  "defaulttitle": { "message": "Modifier la visibilité des textes importants" },
+  "header": { "message": "Extension \"Masquer et Mettre en Évidence\"" },
+  "info1": { "message": "Utilisez cette extension pour flouter ou mettre en évidence un texte spécifique sur la page. Activez la modification du texte pour appliquer les styles." },
+  "info2": { "message": "Le texte de la page web sur laquelle cette fenêtre contextuelle est ouverte sera modifié." },
+  "enable": { "message": "Activer la modification du texte :" },
+  "selectmode": { "message": "Sélectionner le mode :" },
+  "bluroption": { "message": "Flouter" },
+  "highlightoption": { "message": "Mettre en évidence" },
+  "placeholder": { "message": "Entrez un mot-clé à modifier" },
+  "info3": { "message": "Vous pouvez changer les couleurs. Ensuite, vous devez fermer la page des options et rouvrir cette fenêtre contextuelle sur la page souhaitée." },
+  "selectcolortext": { "message": "Choisir la couleur du texte :" },
+  "selectcolorshadow": { "message": "Choisir la couleur de l'ombre :" },
+  "applyrule": { "message": "Appliquer la règle" },
+  "optionstitle": { "message": "Options de Couleur" },
+  "optionsheader": { "message": "Sélectionner les Couleurs" },
+  "optionsinfo": { "message": "Choisissez les couleurs souhaitées, cliquez sur \"Enregistrer\", fermez cette page et rouvrez la fenêtre contextuelle (icône de cette extension en haut à droite de la fenêtre du navigateur) sur la page souhaitée." },
+  "textcolor": { "message": "Couleur du texte : " },
+  "shadowcolor": { "message": "Couleur de l'ombre : " },
+  "savebutton": { "message": "Enregistrer" }
+}
