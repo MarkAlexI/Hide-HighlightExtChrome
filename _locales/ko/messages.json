@@ -1,0 +1,23 @@
+{
+  "chromename": { "message": "숨기기 및 강조하기" },
+  "description": { "message": "\"숨기기 및 강조하기\"는 웹 페이지에서 원하는 텍스트 노드를 숨기거나 강조하여 다른 사람에게 편리하게 보여줄 수 있도록 합니다." },
+  "defaulttitle": { "message": "중요한 텍스트의 가시성 수정" },
+  "header": { "message": "\"숨기기 및 강조하기\" 확장 프로그램" },
+  "info1": { "message": "이 확장을 사용하여 페이지의 특정 텍스트를 흐리게 하거나 강조 표시할 수 있습니다. 스타일을 적용하려면 텍스트 수정을 활성화하세요." },
+  "info2": { "message": "이 팝업이 호출된 웹 페이지의 텍스트가 수정됩니다." },
+  "enable": { "message": "텍스트 수정 활성화:" },
+  "selectmode": { "message": "모드 선택:" },
+  "bluroption": { "message": "흐리게" },
+  "highlightoption": { "message": "강조" },
+  "placeholder": { "message": "수정할 키워드를 입력하세요" },
+  "info3": { "message": "색상을 변경할 수 있습니다. 변경 후에는 옵션 페이지를 닫고 원하는 페이지에서 이 팝업을 다시 열어야 합니다." },
+  "selectcolortext": { "message": "텍스트 색상 선택:" },
+  "selectcolorshadow": { "message": "그림자 색상 선택:" },
+  "applyrule": { "message": "규칙 적용" },
+  "optionstitle": { "message": "색상 옵션" },
+  "optionsheader": { "message": "색상 선택" },
+  "optionsinfo": { "message": "원하는 색상을 선택한 후 \"저장\"을 클릭하고 이 페이지를 닫으세요. 그런 다음, 원하는 페이지에서 이 팝업(브라우저 창 오른쪽 상단에 있는 이 확장의 아이콘)을 다시 여세요." },
+  "textcolor": { "message": "텍스트 색상:" },
+  "shadowcolor": { "message": "그림자 색상:" },
+  "savebutton": { "message": "저장" }
+}

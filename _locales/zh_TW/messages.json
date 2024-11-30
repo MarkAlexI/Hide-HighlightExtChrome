@@ -1,0 +1,23 @@
+{
+  "chromename": { "message": "隱藏與高亮" },
+  "description": { "message": "「隱藏與高亮」允許您隱藏或高亮網頁上的任何文字節點，以便更方便地展示給他人。" },
+  "defaulttitle": { "message": "修改重要文字的可見性" },
+  "header": { "message": "「隱藏與高亮」擴充功能" },
+  "info1": { "message": "使用此擴充功能可模糊或高亮頁面上的特定文字。啟用文字修改以套用樣式。" },
+  "info2": { "message": "此彈窗呼叫的網頁文字將被修改。" },
+  "enable": { "message": "啟用文字修改：" },
+  "selectmode": { "message": "選擇模式：" },
+  "bluroption": { "message": "模糊" },
+  "highlightoption": { "message": "高亮" },
+  "placeholder": { "message": "輸入關鍵字進行修改" },
+  "info3": { "message": "您可以更改顏色。之後需要關閉設定頁面並在所需頁面重新打開此彈窗。" },
+  "selectcolortext": { "message": "選擇文字顏色：" },
+  "selectcolorshadow": { "message": "選擇陰影顏色：" },
+  "applyrule": { "message": "套用規則" },
+  "optionstitle": { "message": "顏色選項" },
+  "optionsheader": { "message": "選擇顏色" },
+  "optionsinfo": { "message": "選擇所需顏色，按下「儲存」，關閉此頁面，然後在所需頁面重新打開彈窗（瀏覽器右上角此擴充功能的圖示）。" },
+  "textcolor": { "message": "文字顏色：" },
+  "shadowcolor": { "message": "陰影顏色：" },
+  "savebutton": { "message": "儲存" }
+}
