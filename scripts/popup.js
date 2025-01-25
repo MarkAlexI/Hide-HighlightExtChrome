@@ -34,7 +34,9 @@ chrome.storage.sync.get(["isActive", "targetText", "mode", "textColor", "shadowC
   reloadBtn.style.display = data.isActive ? "block" : "none";
 
   if (modeSelect.value === "highlight") {
-    selectColor.classList.remove("hidden");
+    setTimeout(function() {
+      selectColor.classList.remove("hidden");
+    }, 0);
   }
 });
 
@@ -46,7 +48,9 @@ toggleSwitch.addEventListener("change", (event) => {
     "timestamp": Date.now()
   });
   updateBadge(isActive);
-  reloadBtn.style.display = isActive ? "block" : "none";
+  setTimeout(function() {
+    reloadBtn.style.display = isActive ? "block" : "none";
+  }, 0);
 
   if (!isActive) {
     textInput.value = '';
@@ -71,7 +75,9 @@ shadowColor.addEventListener("click", () => {
 
 modeSelect.addEventListener("change", () => {
   if (modeSelect.value === "highlight") {
-    selectColor.classList.remove("hidden");
+    setTimeout(function() {
+      selectColor.classList.remove("hidden");
+    }, 0);
   } else {
     selectColor.classList.add("hidden");
   }
