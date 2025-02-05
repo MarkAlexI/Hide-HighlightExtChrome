@@ -1,0 +1,23 @@
+{
+  "chromename": { "message": "Ocultar e Destacar" },
+  "description": { "message": "O \"Ocultar e Destacar\" permite-lhe ocultar ou destacar quaisquer nós de texto nas páginas web para uma exibição mais conveniente para outras pessoas." },
+  "defaulttitle": { "message": "Modificar a visibilidade do texto importante" },
+  "header": { "message": "Extensão Ocultar e Destacar" },
+  "info1": { "message": "Use esta extensão para desfocar ou destacar texto específico na página. Permita a modificação do texto para aplicar estilos." },
+  "info2": { "message": "O texto da página web onde este pop-up é chamado será modificado." },
+  "enable": { "message": "Ativar Modificação de Texto:" },
+  "selectmode": { "message": "Selecionar Modo:" },
+  "bluroption": { "message": "Desfocar" },
+  "highlightoption": { "message": "Destacar" },
+  "placeholder": { "message": "Introduza a palavra-chave para modificar" },
+  "info3": { "message": "Pode alterar as cores. Depois disso, feche a página de opções e reabra este pop-up na página desejada." },
+  "selectcolortext": { "message": "Selecionar cor do texto:" },
+  "selectcolorshadow": { "message": "Selecionar cor da sombra:" },
+  "applyrule": { "message": "Aplicar regra" },
+  "optionstitle": { "message": "Opções de Cores" },
+  "optionsheader": { "message": "Selecionar Cores" },
+  "optionsinfo": { "message": "Selecione as cores desejadas, pressione \"Guardar\", feche esta página e reabra o pop-up (ícone deste complemento no canto superior direito da janela do navegador) na página desejada." },
+  "textcolor": { "message": "Cor do Texto: " },
+  "shadowcolor": { "message": "Cor da Sombra: " },
+  "savebutton": { "message": "Guardar" }
+}
