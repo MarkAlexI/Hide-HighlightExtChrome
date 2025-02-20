@@ -1,0 +1,23 @@
+{
+  "chromename": { "message": "Nascondi e Evidenzia" },
+  "description": { "message": "\"Nascondi e Evidenzia\" ti permette di nascondere o evidenziare qualsiasi testo nelle pagine web per una visualizzazione più comoda ad altre persone." },
+  "defaulttitle": { "message": "Modifica la visibilità del testo importante" },
+  "header": { "message": "Estensione Nascondi e Evidenzia" },
+  "info1": { "message": "Usa questa estensione per sfocare o evidenziare testo specifico sulla pagina. Consenti la modifica del testo per applicare gli stili." },
+  "info2": { "message": "Il testo della pagina web su cui viene aperto questo pop-up verrà modificato." },
+  "enable": { "message": "Abilita modifica del testo:" },
+  "selectmode": { "message": "Seleziona modalità:" },
+  "bluroption": { "message": "Sfoca" },
+  "highlightoption": { "message": "Evidenzia" },
+  "placeholder": { "message": "Inserisci parola chiave da modificare" },
+  "info3": { "message": "Puoi cambiare i colori. Dopo averlo fatto, chiudi la pagina delle opzioni e riapri questo pop-up sulla pagina desiderata." },
+  "selectcolortext": { "message": "Seleziona colore del testo:" },
+  "selectcolorshadow": { "message": "Seleziona colore dell'ombra:" },
+  "applyrule": { "message": "Applica regola" },
+  "optionstitle": { "message": "Opzioni colore" },
+  "optionsheader": { "message": "Seleziona colori" },
+  "optionsinfo": { "message": "Seleziona i colori desiderati, premi \"Salva\", chiudi questa pagina e riapri il pop-up (icona di questa estensione in alto a destra nella finestra del browser) sulla pagina desiderata." },
+  "textcolor": { "message": "Colore del testo: " },
+  "shadowcolor": { "message": "Colore dell'ombra: " },
+  "savebutton": { "message": "Salva" }
+}
