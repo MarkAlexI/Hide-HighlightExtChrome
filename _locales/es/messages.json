@@ -1,0 +1,23 @@
+{
+  "chromename": { "message": "Ocultar y Resaltar" },
+  "description": { "message": "\"Ocultar y Resaltar\" te permite ocultar o resaltar cualquier texto en páginas web para una visualización más conveniente para otras personas." },
+  "defaulttitle": { "message": "Modifica la visibilidad del texto importante" },
+  "header": { "message": "Extensión Ocultar y Resaltar" },
+  "info1": { "message": "Usa esta extensión para difuminar o resaltar texto específico en la página. Habilita la modificación de texto para aplicar estilos." },
+  "info2": { "message": "El texto de la página web en la que se abre este pop-up será modificado." },
+  "enable": { "message": "Habilitar modificación de texto:" },
+  "selectmode": { "message": "Seleccionar modo:" },
+  "bluroption": { "message": "Difuminar" },
+  "highlightoption": { "message": "Resaltar" },
+  "placeholder": { "message": "Introduce la palabra clave a modificar" },
+  "info3": { "message": "Puedes cambiar los colores. Después, debes cerrar la página de opciones y volver a abrir este pop-up en la página deseada." },
+  "selectcolortext": { "message": "Seleccionar color del texto:" },
+  "selectcolorshadow": { "message": "Seleccionar color de la sombra:" },
+  "applyrule": { "message": "Aplicar regla" },
+  "optionstitle": { "message": "Opciones de color" },
+  "optionsheader": { "message": "Seleccionar colores" },
+  "optionsinfo": { "message": "Selecciona los colores deseados, presiona \"Guardar\", cierra esta página y vuelve a abrir el pop-up (icono de este complemento en la parte superior derecha del navegador) en la página deseada." },
+  "textcolor": { "message": "Color del texto: " },
+  "shadowcolor": { "message": "Color de la sombra: " },
+  "savebutton": { "message": "Guardar" }
+}
