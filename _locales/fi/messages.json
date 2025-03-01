@@ -1,0 +1,23 @@
+{
+  "chromename": { "message": "Piilota & Korosta" },
+  "description": { "message": "\"Piilota & Korosta\" antaa sinun piilottaa tai korostaa minkä tahansa verkkosivun tekstielementin, jotta voit esitellä sisältöä helposti muille." },
+  "defaulttitle": { "message": "Muokkaa tärkeän tekstin näkyvyyttä" },
+  "header": { "message": "Piilota & Korosta -laajennus" },
+  "info1": { "message": "Käytä tätä laajennusta sumentaaksesi tai korostaaksesi tiettyä tekstiä sivulla. Salli tekstin muokkaaminen tyylien soveltamiseksi." },
+  "info2": { "message": "Sen verkkosivun tekstiä, jolla tämä ponnahdusikkuna avataan, muokataan." },
+  "enable": { "message": "Ota tekstin muokkaus käyttöön:" },
+  "selectmode": { "message": "Valitse tila:" },
+  "bluroption": { "message": "Sumenna" },
+  "highlightoption": { "message": "Korosta" },
+  "placeholder": { "message": "Syötä avainsana muokattavaksi" },
+  "info3": { "message": "Voit muuttaa värejä. Tämän jälkeen sinun on suljettava asetussivu ja avattava tämä ponnahdusikkuna uudelleen halutulla sivulla." },
+  "selectcolortext": { "message": "Valitse tekstin väri:" },
+  "selectcolorshadow": { "message": "Valitse varjon väri:" },
+  "applyrule": { "message": "Käytä sääntöä" },
+  "optionstitle": { "message": "Väriasetukset" },
+  "optionsheader": { "message": "Valitse värit" },
+  "optionsinfo": { "message": "Valitse haluamasi värit, paina \"Tallenna\", sulje tämä sivu ja avaa ponnahdusikkuna uudelleen (tämän lisäosan kuvake selaimen oikeassa yläkulmassa) halutulla sivulla." },
+  "textcolor": { "message": "Tekstin väri: " },
+  "shadowcolor": { "message": "Varjon väri: " },
+  "savebutton": { "message": "Tallenna" }
+}
