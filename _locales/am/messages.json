@@ -1,0 +1,23 @@
+{
+  "chromename": { "message": "ሰይፍ & ማስተላለፊያ" },
+  "description": { "message": "«ሰይፍ & ማስተላለፊያ» በድረገጽ ላይ ያሉ የጽሑፍ ቁራጭዎችን ማሰወል ወይም ማብራራት የሚያስችል እና ለሌሎች ተገልጋይ የሚያደርገው ቅርብ ተጨማሪ ነው።" },
+  "defaulttitle": { "message": "የጽሑፉን ግልጽነት ይለዋውጡ" },
+  "header": { "message": "ሰይፍ & ማስተላለፊያ ተጨማሪ" },
+  "info1": { "message": "ይህን ተጨማሪ ለማጽደቅ ወይም ለማብራራት የሚሆኑ የጽሑፍ ክፍሎችን ይጠቀሙ። ቅድሚያ ማሻሻያን እንዲተገበር የጽሑፍ ማሻሻያን ያንቁ።" },
+  "info2": { "message": "ይህ ፖፑፕ በሚጠራበት ድረገጽ ላይ የሚገኘው ጽሑፍ ተሻሻላል።" },
+  "enable": { "message": "የጽሑፍ ማሻሻያን ያንቁ፡-" },
+  "selectmode": { "message": "ዘዴን ይምረጡ፡-" },
+  "bluroption": { "message": "ማጽደቅ" },
+  "highlightoption": { "message": "ማብራራት" },
+  "placeholder": { "message": "ለማሻሻል የሚፈልጉትን ቃል ያስገቡ" },
+  "info3": { "message": "ቀለሞቹን ማሻሻል ይችላሉ። ከዛ በኋላ የምርጫውን ገጽ ይዝጉ እና ይህን ፖፑፕ በፈለጉት ገፅ ላይ እንደገና ይክፈቱ።" },
+  "selectcolortext": { "message": "የጽሑፍ ቀለም ይምረጡ፡-" },
+  "selectcolorshadow": { "message": "የጥላ ቀለም ይምረጡ፡-" },
+  "applyrule": { "message": "ደንቡን ይተግብሩ" },
+  "optionstitle": { "message": "የቀለም ምርጫዎች" },
+  "optionsheader": { "message": "ቀለሞችን ይምረጡ" },
+  "optionsinfo": { "message": "ፈለጉትን ቀለሞች ይምረጡ፣ \"ማስቀመጥ\" ይጫኑ፣ ይህን ገጽ ይዝጉ፣ እና በፈለጉት ድረገጽ ላይ የተጨማሪውን ምልክት ይክፈቱ።" },
+  "textcolor": { "message": "የጽሑፍ ቀለም፡-" },
+  "shadowcolor": { "message": "የጥላ ቀለም፡-" },
+  "savebutton": { "message": "ማስቀመጥ" }
+}
