@@ -1,0 +1,23 @@
+{
+  "chromename": { "message": "Skjul & Fremhæv" },
+  "description": { "message": "\"Skjul & Fremhæv\" giver dig mulighed for at skjule eller fremhæve tekstnoder på websider for nem visning for andre." },
+  "defaulttitle": { "message": "Ændr synligheden af vigtig tekst" },
+  "header": { "message": "Skjul & Fremhæv Udvidelse" },
+  "info1": { "message": "Brug denne udvidelse til at sløre eller fremhæve specifik tekst på siden. Tillad tekstændring for at anvende stilarter." },
+  "info2": { "message": "Teksten på den webside, hvor denne pop-up er aktiveret, bliver ændret." },
+  "enable": { "message": "Aktiver tekstændring:" },
+  "selectmode": { "message": "Vælg tilstand:" },
+  "bluroption": { "message": "Sløring" },
+  "highlightoption": { "message": "Fremhævning" },
+  "placeholder": { "message": "Indtast søgeord til ændring" },
+  "info3": { "message": "Du kan ændre farverne. Derefter skal du lukke indstillingssiden og genåbne denne pop-up på den ønskede side." },
+  "selectcolortext": { "message": "Vælg tekstfarve:" },
+  "selectcolorshadow": { "message": "Vælg skyggefarve:" },
+  "applyrule": { "message": "Anvend regel" },
+  "optionstitle": { "message": "Farveindstillinger" },
+  "optionsheader": { "message": "Vælg farver" },
+  "optionsinfo": { "message": "Vælg de ønskede farver, tryk på \"Gem\", luk denne side og genåbn pop-up'en (ikonet for denne udvidelse øverst til højre i browseren) på den ønskede side." },
+  "textcolor": { "message": "Tekstfarve: " },
+  "shadowcolor": { "message": "Skyggefarve: " },
+  "savebutton": { "message": "Gem" }
+}
