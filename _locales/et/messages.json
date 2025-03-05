@@ -1,0 +1,23 @@
+{
+  "chromename": { "message": "Peida ja Tõsta Esile" },
+  "description": { "message": "\"Peida ja Tõsta Esile\" võimaldab peita või esile tõsta mis tahes tekstisõlmi veebilehtedel, et sisu oleks mugavamalt teistele nähtav." },
+  "defaulttitle": { "message": "Muuda olulise teksti nähtavust" },
+  "header": { "message": "Peida ja Tõsta Esile Laiendus" },
+  "info1": { "message": "Kasuta seda laiendust teksti hägustamiseks või esiletõstmiseks lehel. Luba tekstimuudatused, et stiilid rakenduksid." },
+  "info2": { "message": "Veebilehe tekst, millel see hüpik avati, on muudetud." },
+  "enable": { "message": "Luba tekstimuudatused:" },
+  "selectmode": { "message": "Vali režiim:" },
+  "bluroption": { "message": "Hägusta" },
+  "highlightoption": { "message": "Tõsta esile" },
+  "placeholder": { "message": "Sisesta märksõna muutmiseks" },
+  "info3": { "message": "Saad värve muuta. Seejärel sule valikute leht ja ava see hüpik soovitud lehel uuesti." },
+  "selectcolortext": { "message": "Vali teksti värv:" },
+  "selectcolorshadow": { "message": "Vali varju värv:" },
+  "applyrule": { "message": "Rakenda reegel" },
+  "optionstitle": { "message": "Värvivalikud" },
+  "optionsheader": { "message": "Vali värvid" },
+  "optionsinfo": { "message": "Vali soovitud värvid, vajuta \"Salvesta\", sule see leht ja ava hüpik (selle laienduse ikoon brauseriakna paremas ülanurgas) soovitud lehel uuesti." },
+  "textcolor": { "message": "Teksti värv: " },
+  "shadowcolor": { "message": "Varju värv: " },
+  "savebutton": { "message": "Salvesta" }
+}
