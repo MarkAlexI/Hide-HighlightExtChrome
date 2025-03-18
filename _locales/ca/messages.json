@@ -1,0 +1,23 @@
+{
+  "chromename": { "message": "Hide & Highlight" },
+  "description": { "message": "\"Hide & Highlight\" allows you to hide or highlight any text nodes on web pages for convenient display to other people." },
+  "defaulttitle": { "message": "Modify visibility of important text" },
+  "header": { "message": "Hide & Highlight Extension" },
+  "info1": { "message": "Use this extension to blur or highlight specific text on the page. Allow text modification to apply styles." },
+  "info2": { "message": "The text of the web page on which this popup is called is modified." },
+  "enable": { "message": "Enable Text Modification:" },
+  "selectmode": { "message": "Select Mode:" },
+  "bluroption": { "message": "Blur" },
+  "highlightoption": { "message": "Highlight" },
+  "placeholder": { "message": "Enter keyword to modify" },
+  "info3": { "message": "You can change the colors. After that, you need to close the options page and reopen this pop-up on the desired page." },
+  "selectcolortext": { "message": "Select color of text:" },
+  "selectcolorshadow": { "message": "Select color of shadow:" },
+  "applyrule": { "message": "Apply rule" },
+  "optionstitle": { "message": "Color Options" },
+  "optionsheader": { "message": "Select Colors" },
+  "optionsinfo": { "message": "Select the desired colors, press \"Save\", close this page and reopen the pop-up (icon of this add-on on the upper right of browser window) on the desired page." },
+  "textcolor": { "message": "Text Color: " },
+  "shadowcolor": { "message": "Shadow Color: " },
+  "savebutton": { "message": "Save" }
+}
