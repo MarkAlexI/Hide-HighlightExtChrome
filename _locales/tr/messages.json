@@ -1,0 +1,23 @@
+{
+  "chromename": { "message": "Gizle ve Vurgula" },
+  "description": { "message": "\"Gizle ve Vurgula\" web sayfalarındaki metin düğümlerini gizlemenize veya vurgulamanıza olanak tanır, böylece başkalarına daha rahat gösterebilirsiniz." },
+  "defaulttitle": { "message": "Önemli metnin görünürlüğünü değiştirin" },
+  "header": { "message": "Gizle ve Vurgula Uzantısı" },
+  "info1": { "message": "Bu uzantıyı kullanarak sayfadaki belirli metinleri bulanıklaştırabilir veya vurgulayabilirsiniz. Stillerin uygulanabilmesi için metin değişikliğine izin verin." },
+  "info2": { "message": "Bu açılır pencerenin çağrıldığı web sayfasındaki metin değiştirilecektir." },
+  "enable": { "message": "Metin Değişikliğini Etkinleştir:" },
+  "selectmode": { "message": "Mod Seçin:" },
+  "bluroption": { "message": "Bulanıklaştır" },
+  "highlightoption": { "message": "Vurgula" },
+  "placeholder": { "message": "Değiştirmek için anahtar kelime girin" },
+  "info3": { "message": "Renkleri değiştirebilirsiniz. Bundan sonra, seçenekler sayfasını kapatıp bu açılır pencereyi istediğiniz sayfada yeniden açmanız gerekir." },
+  "selectcolortext": { "message": "Metin rengini seçin:" },
+  "selectcolorshadow": { "message": "Gölge rengini seçin:" },
+  "applyrule": { "message": "Kuralları Uygula" },
+  "optionstitle": { "message": "Renk Seçenekleri" },
+  "optionsheader": { "message": "Renkleri Seçin" },
+  "optionsinfo": { "message": "İstediğiniz renkleri seçin, \"Kaydet\" düğmesine basın, bu sayfayı kapatın ve ardından bu uzantının simgesine tıklayarak açılır pencereyi istediğiniz sayfada yeniden açın." },
+  "textcolor": { "message": "Metin Rengi: " },
+  "shadowcolor": { "message": "Gölge Rengi: " },
+  "savebutton": { "message": "Kaydet" }
+}
