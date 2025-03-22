@@ -1,0 +1,23 @@
+{
+  "chromename": { "message": "Slėpti ir Parodyti" },
+  "description": { "message": "\"Slėpti ir Parodyti\" leidžia slėpti arba paryškinti bet kokius teksto mazgus tinklalapiuose, kad būtų patogu juos rodyti kitiems žmonėms." },
+  "defaulttitle": { "message": "Keisti svarbaus teksto matomumą" },
+  "header": { "message": "Slėpti ir Parodyti Plėtinys" },
+  "info1": { "message": "Naudokite šį plėtinį norėdami sulieti arba paryškinti konkretų puslapio tekstą. Leiskite teksto modifikavimą, kad pritaikytumėte stilius." },
+  "info2": { "message": "Tinklalapio, kuriame iškviečiamas šis iššokantis langas, tekstas yra modifikuojamas." },
+  "enable": { "message": "Įjungti teksto modifikavimą:" },
+  "selectmode": { "message": "Pasirinkite režimą:" },
+  "bluroption": { "message": "Sulieti" },
+  "highlightoption": { "message": "Paryškinti" },
+  "placeholder": { "message": "Įveskite raktažodį keitimui" },
+  "info3": { "message": "Galite pakeisti spalvas. Po to reikia uždaryti parinkčių puslapį ir iš naujo atidaryti šį iššokantį langą norimame puslapyje." },
+  "selectcolortext": { "message": "Pasirinkite teksto spalvą:" },
+  "selectcolorshadow": { "message": "Pasirinkite šešėlio spalvą:" },
+  "applyrule": { "message": "Taikyti taisyklę" },
+  "optionstitle": { "message": "Spalvų parinktys" },
+  "optionsheader": { "message": "Pasirinkite spalvas" },
+  "optionsinfo": { "message": "Pasirinkite norimas spalvas, paspauskite „Išsaugoti“, uždarykite šį puslapį ir iš naujo atidarykite iššokantį langą (šio plėtinio piktograma naršyklės viršutiniame dešiniajame kampe) norimame puslapyje." },
+  "textcolor": { "message": "Teksto spalva: " },
+  "shadowcolor": { "message": "Šešėlio spalva: " },
+  "savebutton": { "message": "Išsaugoti" }
+}

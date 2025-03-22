@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "__MSG_chromename__",
-  "version": "1.30.0",
+  "version": "1.31.0",
   "author": "MarkAlexI",
   "default_locale": "en",
   "icons": {
