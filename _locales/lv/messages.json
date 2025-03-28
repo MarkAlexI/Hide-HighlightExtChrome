@@ -1,0 +1,23 @@
+{
+  "chromename": { "message": "Slēpt & Izcelt" },
+  "description": { "message": "\"Slēpt & Izcelt\" ļauj slēpt vai izcelt jebkurus teksta elementus tīmekļa lapās, lai tos ērti demonstrētu citiem." },
+  "defaulttitle": { "message": "Mainiet svarīga teksta redzamību" },
+  "header": { "message": "Slēpt & Izcelt paplašinājums" },
+  "info1": { "message": "Izmantojiet šo paplašinājumu, lai aizmiglotu vai izceltu konkrētu tekstu lapā. Atļaujiet teksta modifikāciju, lai piemērotu stilus." },
+  "info2": { "message": "Tīmekļa lapas teksts, kurā tiek atvērts šis uznirstošais logs, tiek modificēts." },
+  "enable": { "message": "Iespējot teksta modifikāciju:" },
+  "selectmode": { "message": "Izvēlieties režīmu:" },
+  "bluroption": { "message": "Aizmiglot" },
+  "highlightoption": { "message": "Izcelt" },
+  "placeholder": { "message": "Ievadiet atslēgvārdu modifikācijai" },
+  "info3": { "message": "Jūs varat mainīt krāsas. Pēc tam nepieciešams aizvērt iestatījumu lapu un atkārtoti atvērt šo uznirstošo logu vēlamajā lapā." },
+  "selectcolortext": { "message": "Izvēlieties teksta krāsu:" },
+  "selectcolorshadow": { "message": "Izvēlieties ēnas krāsu:" },
+  "applyrule": { "message": "Piemērot noteikumu" },
+  "optionstitle": { "message": "Krāsu iestatījumi" },
+  "optionsheader": { "message": "Izvēlieties krāsas" },
+  "optionsinfo": { "message": "Izvēlieties vēlamās krāsas, nospiediet \"Saglabāt\", aizveriet šo lapu un atkārtoti atveriet uznirstošo logu (šī paplašinājuma ikona pārlūkprogrammas augšējā labajā stūrī) vēlamajā lapā." },
+  "textcolor": { "message": "Teksta krāsa: " },
+  "shadowcolor": { "message": "Ēnas krāsa: " },
+  "savebutton": { "message": "Saglabāt" }
+}
