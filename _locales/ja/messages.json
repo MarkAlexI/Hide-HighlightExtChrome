@@ -10,6 +10,7 @@
   "bluroption": { "message": "ぼかし" },
   "highlightoption": { "message": "ハイライト" },
   "placeholder": { "message": "変更するキーワードを入力してください" },
+  "info4": { "message": "複数の非表示／強調表示を行うには、以下の欄に検索語をセミコロンで区切って入力してください。例：りんご;たいよう;き" },
   "info3": { "message": "色を変更できます。その後、オプションページを閉じ、このポップアップを再度開いてください。" },
   "selectcolortext": { "message": "テキストの色を選択：" },
   "selectcolorshadow": { "message": "影の色を選択：" },
