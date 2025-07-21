@@ -24,6 +24,8 @@ const applyEffect = (element, mode) => {
 };
 
 const removeEffect = (element) => {
+    if (!element || !element.style) return;
+    
   element.style.filter = "";
   element.style.fontWeight = "";
   element.style.fontSize = "";
@@ -37,7 +39,7 @@ const scanNode = (node) => {
   }
   if (node.nodeType === Node.TEXT_NODE && node.textContent.trim()) {
     const parentElem = node.parentElement;
-    if (parentElem && !["SCRIPT"].includes(parentElem.tagName)) {
+    if (parentElem && !["SCRIPT", "STYLE", "NOSCRIPT", "IFRAME"].includes(parentElem.tagName)) {
       const lowerText = node.textContent.toLowerCase();
       
       const matched = targetWords.some(word =>
