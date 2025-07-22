@@ -164,3 +164,10 @@ select,
 #save-btn:hover {
   background-color: steelblue;
 }
+
+@media screen and (max-width: 768px) {
+  body.keyboard-visible button {
+    margin-bottom: 60px;
+    z-index: 10;
+  }
+}
