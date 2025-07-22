@@ -166,8 +166,13 @@ select,
 }
 
 @media screen and (max-width: 768px) {
+  body.keyboard-visible {
+    height: 1400px;
+    min-height: 1400px;
+  }
+  
   body.keyboard-visible button {
-    margin-bottom: 60px;
+    margin-bottom: 460px;
     z-index: 10;
   }
 }
