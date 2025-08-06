@@ -20,5 +20,6 @@
   "optionsinfo": { "message": "Selecteer de gewenste kleuren, druk op \"Opslaan\", sluit deze pagina en open het pop-upvenster opnieuw (het pictogram van deze extensie rechtsboven in het browservenster) op de gewenste pagina." },
   "textcolor": { "message": "Tekstkleur: " },
   "shadowcolor": { "message": "Schaduwkleur: " },
-  "savebutton": { "message": "Opslaan" }
+  "savebutton": { "message": "Opslaan" },
+  "easteregg": { "message": "Gebruiktips:\n• Om naar een exacte zin te zoeken, voer woorden met spaties in (bijv. appel taart).\n• Om een enkel woord of een deel ervan te vinden, voer gewoon dat fragment in (bijv. app).\n• Om meerdere woorden of fragmenten afzonderlijk te controleren, gebruik puntkomma’s (;) om ze te scheiden (bijv. app;taart;bes)." }
 }

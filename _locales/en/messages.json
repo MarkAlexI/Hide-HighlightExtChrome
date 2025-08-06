@@ -20,5 +20,6 @@
   "optionsinfo": { "message": "Select the desired colors, press \"Save\", close this page and reopen the pop-up (icon of this add-on on the upper right of browser window) on the desired page." },
   "textcolor": { "message": "Text Color: " },
   "shadowcolor": { "message": "Shadow Color: " },
-  "savebutton": { "message": "Save" }
+  "savebutton": { "message": "Save" },
+  "easteregg": { "message": "Usage tips:\n• To search for an exact phrase, enter words with spaces (e.g., apple pie).\n• To match a single word or part of a word, just enter that fragment (e.g., app).\n• To check multiple words or fragments separately, use semicolons (;) to separate them (e.g., app;pie;berry)." }
 }

@@ -150,6 +150,7 @@ select,
 #reload {
   display: none;
   background-color: lightgoldenrodyellow;
+  margin-bottom: 1rem;
 }
 
 #reload:hover {
@@ -175,4 +176,8 @@ select,
     margin-bottom: 460px;
     z-index: 10;
   }
+}
+
+div p:last-of-type {
+  line-height: 1.2;
 }
