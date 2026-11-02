@@ -1,24 +1,131 @@
 {
-  "chromename": { "message": "隱藏與高亮" },
-  "description": { "message": "「隱藏與高亮」允許您隱藏或高亮網頁上的任何文字節點，以便更方便地展示給他人。" },
-  "defaulttitle": { "message": "修改重要文字的可見性" },
-  "header": { "message": "「隱藏與高亮」擴充功能" },
-  "info1": { "message": "使用此擴充功能可模糊或高亮頁面上的特定文字。啟用文字修改以套用樣式。" },
-  "info2": { "message": "此彈窗呼叫的網頁文字將被修改。" },
-  "enable": { "message": "啟用文字修改：" },
-  "selectmode": { "message": "選擇模式：" },
-  "bluroption": { "message": "模糊" },
-  "highlightoption": { "message": "高亮" },
-  "placeholder": { "message": "請輸入要更改的關鍵字" },
-  "info4": { "message": "如需多重隱藏/突顯，請在下方欄位輸入以分號分隔的搜尋詞；例如：蘋果;太陽;樹" },
-  "info3": { "message": "您可以更改顏色。之後需要關閉設定頁面並在所需頁面重新打開此彈窗。" },
-  "selectcolortext": { "message": "選擇文字顏色：" },
-  "selectcolorshadow": { "message": "選擇陰影顏色：" },
-  "applyrule": { "message": "套用規則" },
-  "optionstitle": { "message": "顏色選項" },
-  "optionsheader": { "message": "選擇顏色" },
-  "optionsinfo": { "message": "選擇所需顏色，按下「儲存」，關閉此頁面，然後在所需頁面重新打開彈窗（瀏覽器右上角此擴充功能的圖示）。" },
-  "textcolor": { "message": "文字顏色：" },
-  "shadowcolor": { "message": "陰影顏色：" },
-  "savebutton": { "message": "儲存" }
+  "chromename": {
+    "message": "隱藏與高亮"
+  },
+  "defaulttitle": {
+    "message": "隱藏與高亮"
+  },
+  "description": {
+    "message": "模糊網頁上的詞語並醒目標示重要文字，輕鬆準備螢幕擷取畫面、簡報與閱讀頁面。"
+  },
+  "currentTab": {
+    "message": "目前分頁"
+  },
+  "blurLabel": {
+    "message": "模糊這些詞語"
+  },
+  "highlightLabel": {
+    "message": "醒目標示這些詞語"
+  },
+  "termsHint": {
+    "message": "以 ; 或換行分隔詞語或片語。"
+  },
+  "wholeWords": {
+    "message": "完整詞語"
+  },
+  "matchCase": {
+    "message": "區分大小寫"
+  },
+  "colorsLabel": {
+    "message": "色彩"
+  },
+  "customColors": {
+    "message": "自訂"
+  },
+  "previewLabel": {
+    "message": "預覽"
+  },
+  "previewText": {
+    "message": "重要文字"
+  },
+  "rememberSite": {
+    "message": "記住此網站的規則"
+  },
+  "apply": {
+    "message": "套用"
+  },
+  "applyClose": {
+    "message": "套用並關閉"
+  },
+  "pause": {
+    "message": "暫停"
+  },
+  "resume": {
+    "message": "繼續"
+  },
+  "reset": {
+    "message": "移除效果"
+  },
+  "statusReady": {
+    "message": "輸入詞語，然後套用。"
+  },
+  "statusPaused": {
+    "message": "已在目前分頁暫停。"
+  },
+  "noMatches": {
+    "message": "此頁面沒有相符項目。"
+  },
+  "matchCounts": {
+    "message": "已模糊 $1 處 · 已標示 $2 處"
+  },
+  "unavailable": {
+    "message": "請開啟或重新載入一般網頁。瀏覽器內部頁面與部分受保護網站無法使用。"
+  },
+  "error": {
+    "message": "無法儲存變更，請再試一次。"
+  },
+  "removed": {
+    "message": "已移除效果，輸入的詞語已保留。"
+  },
+  "privacy": {
+    "message": "無需帳號。規則儲存在此瀏覽器中。"
+  },
+  "optionsTitle": {
+    "message": "自訂色彩"
+  },
+  "backgroundColor": {
+    "message": "標示背景色"
+  },
+  "textColor": {
+    "message": "文字色彩"
+  },
+  "shadowColor": {
+    "message": "陰影色彩"
+  },
+  "useShadow": {
+    "message": "加入文字陰影"
+  },
+  "saveColors": {
+    "message": "儲存色彩"
+  },
+  "restoreColors": {
+    "message": "還原預設值"
+  },
+  "saved": {
+    "message": "色彩已儲存。"
+  },
+  "returnTab": {
+    "message": "返回頁面"
+  },
+  "limitReached": {
+    "message": "最多顯示 5,000 個相符項目。"
+  },
+  "amber": {
+    "message": "琥珀色"
+  },
+  "mint": {
+    "message": "薄荷色"
+  },
+  "sky": {
+    "message": "天藍色"
+  },
+  "rose": {
+    "message": "玫瑰色"
+  },
+  "lavender": {
+    "message": "薰衣草色"
+  },
+  "termLimit": {
+    "message": "每個清單最多使用 100 個詞語或片語。"
+  }
 }

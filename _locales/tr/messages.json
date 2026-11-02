@@ -1,24 +1,131 @@
 {
-  "chromename": { "message": "Gizle ve Vurgula" },
-  "description": { "message": "\"Gizle ve Vurgula\" web sayfalarındaki metin düğümlerini gizlemenize veya vurgulamanıza olanak tanır, böylece başkalarına daha rahat gösterebilirsiniz." },
-  "defaulttitle": { "message": "Önemli metnin görünürlüğünü değiştirin" },
-  "header": { "message": "Gizle ve Vurgula Uzantısı" },
-  "info1": { "message": "Bu uzantıyı kullanarak sayfadaki belirli metinleri bulanıklaştırabilir veya vurgulayabilirsiniz. Stillerin uygulanabilmesi için metin değişikliğine izin verin." },
-  "info2": { "message": "Bu açılır pencerenin çağrıldığı web sayfasındaki metin değiştirilecektir." },
-  "enable": { "message": "Metin Değişikliğini Etkinleştir:" },
-  "selectmode": { "message": "Mod Seçin:" },
-  "bluroption": { "message": "Bulanıklaştır" },
-  "highlightoption": { "message": "Vurgula" },
-  "placeholder": { "message": "Değiştirmek için anahtar kelimeleri girin" },
-  "info4": { "message": "Birden çok gizleme/vurgulama için, aşağıdaki kutuya arama kelimelerini noktalı virgülle ayırarak girin; örneğin: elma;güneş;ağaç" },
-  "info3": { "message": "Renkleri değiştirebilirsiniz. Bundan sonra, seçenekler sayfasını kapatıp bu açılır pencereyi istediğiniz sayfada yeniden açmanız gerekir." },
-  "selectcolortext": { "message": "Metin rengini seçin:" },
-  "selectcolorshadow": { "message": "Gölge rengini seçin:" },
-  "applyrule": { "message": "Kuralları Uygula" },
-  "optionstitle": { "message": "Renk Seçenekleri" },
-  "optionsheader": { "message": "Renkleri Seçin" },
-  "optionsinfo": { "message": "İstediğiniz renkleri seçin, \"Kaydet\" düğmesine basın, bu sayfayı kapatın ve ardından bu uzantının simgesine tıklayarak açılır pencereyi istediğiniz sayfada yeniden açın." },
-  "textcolor": { "message": "Metin Rengi: " },
-  "shadowcolor": { "message": "Gölge Rengi: " },
-  "savebutton": { "message": "Kaydet" }
+  "chromename": {
+    "message": "Gizle ve Vurgula"
+  },
+  "defaulttitle": {
+    "message": "Gizle ve Vurgula"
+  },
+  "description": {
+    "message": "Web sayfalarında sözcükleri bulanıklaştırın, metni vurgulayın. Ekran görüntüleri, sunumlar ve okuma için."
+  },
+  "currentTab": {
+    "message": "Bu sekme"
+  },
+  "blurLabel": {
+    "message": "Bu sözcükleri bulanıklaştır"
+  },
+  "highlightLabel": {
+    "message": "Bu sözcükleri vurgula"
+  },
+  "termsHint": {
+    "message": "Sözcük veya ifadeleri ; ya da yeni satırla ayırın."
+  },
+  "wholeWords": {
+    "message": "Tam sözcükler"
+  },
+  "matchCase": {
+    "message": "Büyük/küçük harf"
+  },
+  "colorsLabel": {
+    "message": "Renkler"
+  },
+  "customColors": {
+    "message": "Özel"
+  },
+  "previewLabel": {
+    "message": "Önizleme"
+  },
+  "previewText": {
+    "message": "Önemli metin"
+  },
+  "rememberSite": {
+    "message": "Bu site için hatırla"
+  },
+  "apply": {
+    "message": "Uygula"
+  },
+  "applyClose": {
+    "message": "Uygula ve kapat"
+  },
+  "pause": {
+    "message": "Duraklat"
+  },
+  "resume": {
+    "message": "Sürdür"
+  },
+  "reset": {
+    "message": "Efektleri kaldır"
+  },
+  "statusReady": {
+    "message": "Sözcükleri girip uygulayın."
+  },
+  "statusPaused": {
+    "message": "Bu sekmede duraklatıldı."
+  },
+  "noMatches": {
+    "message": "Bu sayfada eşleşme yok."
+  },
+  "matchCounts": {
+    "message": "$1 bulanık · $2 vurgulu"
+  },
+  "unavailable": {
+    "message": "Normal bir web sayfası açın veya yenileyin. Tarayıcı sayfaları ve bazı korunan siteler kullanılamaz."
+  },
+  "error": {
+    "message": "Değişiklikler kaydedilemedi. Yeniden deneyin."
+  },
+  "removed": {
+    "message": "Efektler kaldırıldı. Sözcükleriniz korundu."
+  },
+  "privacy": {
+    "message": "Hesap gerekmez. Kurallar bu tarayıcıda kalır."
+  },
+  "optionsTitle": {
+    "message": "Özel renkler"
+  },
+  "backgroundColor": {
+    "message": "Vurgu arka planı"
+  },
+  "textColor": {
+    "message": "Metin rengi"
+  },
+  "shadowColor": {
+    "message": "Gölge rengi"
+  },
+  "useShadow": {
+    "message": "Metin gölgesi ekle"
+  },
+  "saveColors": {
+    "message": "Renkleri kaydet"
+  },
+  "restoreColors": {
+    "message": "Varsayılanları yükle"
+  },
+  "saved": {
+    "message": "Renkler kaydedildi."
+  },
+  "returnTab": {
+    "message": "Sayfaya dön"
+  },
+  "limitReached": {
+    "message": "En fazla 5.000 eşleşme gösteriliyor."
+  },
+  "amber": {
+    "message": "Kehribar"
+  },
+  "mint": {
+    "message": "Nane"
+  },
+  "sky": {
+    "message": "Gök mavisi"
+  },
+  "rose": {
+    "message": "Pembe"
+  },
+  "lavender": {
+    "message": "Lavanta"
+  },
+  "termLimit": {
+    "message": "Her listede en fazla 100 sözcük veya ifade kullanın."
+  }
 }

@@ -1,51 +1,54 @@
-<!DOCTYPE html>
-<html>
-
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hide &amp; Highlight</title>
   <link rel="stylesheet" href="styles/main.css">
-  <title data-i18n="defaulttitle"></title>
 </head>
-
-<body>
-  <div class="container">
-    <h2 data-i18n="header"></h2>
-    <p data-i18n="info1"></p>
-    <p data-i18n="info2"></p>
-    <p data-i18n="info4"></p>
-
-    <label for="toggle-visibility" data-i18n="enable"></label>
-    <label class="toggle-switch">
-      <input id="toggle-visibility" type="checkbox">
-      <span class="switch-slider"></span>
-    </label>
-
-    <label for="mode-select" data-i18n="selectmode"></label>
-    <select id="mode-select">
-      <option value="blur" data-i18n="bluroption"></option>
-      <option value="highlight" data-i18n="highlightoption"></option>
-    </select>
-
-    <input class="text-input" id="blur-text" type="text" placeholder="i18n" data-i18n="placeholder">
-    <div class="select-color hidden" id="select-color">
-      <p data-i18n="info3"></p>
-      <div class="color-group">
-        <p data-i18n="selectcolortext"></p>
-        <div class="color-div" id="text-color"></div>
+<body class="popup">
+  <main class="app">
+    <header class="app-header">
+      <img src="images/icon-48.png" width="34" height="34" alt="">
+      <div class="brand"><h1>Hide &amp; Highlight</h1><p data-i18n="currentTab"></p></div>
+      <button class="quiet compact" id="pause" type="button" data-i18n="pause" disabled></button>
+    </header>
+    <p id="unavailable" class="notice" data-i18n="unavailable" hidden></p>
+    <form id="rule-form">
+      <fieldset id="rule-fields" disabled>
+        <div class="field">
+          <label for="blur-words"><span class="effect-dot blur-dot" aria-hidden="true"></span><span data-i18n="blurLabel"></span></label>
+          <textarea id="blur-words" rows="2" maxlength="4000" placeholder="name; email@example.com" spellcheck="false" aria-describedby="terms-hint"></textarea>
+        </div>
+        <div class="field">
+          <label for="highlight-words"><span class="effect-dot highlight-dot" aria-hidden="true"></span><span data-i18n="highlightLabel"></span></label>
+          <textarea id="highlight-words" rows="2" maxlength="4000" placeholder="important; next steps" spellcheck="false" aria-describedby="terms-hint"></textarea>
+        </div>
+        <p class="hint" id="terms-hint" data-i18n="termsHint"></p>
+        <div class="check-row">
+          <label class="check"><input type="checkbox" id="whole-words"><span data-i18n="wholeWords"></span></label>
+          <label class="check"><input type="checkbox" id="match-case"><span data-i18n="matchCase"></span></label>
+        </div>
+        <div class="palette-row">
+          <span class="small-label" data-i18n="colorsLabel"></span>
+          <div class="swatches" id="presets" role="group" data-i18n-aria="colorsLabel"></div>
+          <button class="text-button" id="custom-colors" type="button" data-i18n="customColors"></button>
+        </div>
+        <div class="preview-line" aria-hidden="true"><span data-i18n="previewLabel"></span><mark id="color-preview" data-i18n="previewText"></mark></div>
+        <label class="check remember"><input type="checkbox" id="remember-site"><span data-i18n="rememberSite"></span></label>
+      </fieldset>
+      <div class="action-area">
+        <div class="primary-row">
+          <button class="primary" id="apply" type="submit" data-i18n="apply" disabled></button>
+          <button class="quiet" id="apply-close" type="button" data-i18n="applyClose" disabled></button>
+        </div>
+        <div class="status-row"><p id="status" role="status" aria-live="polite" data-i18n="statusReady"></p><button class="text-button" id="reset" type="button" data-i18n="reset" disabled></button></div>
       </div>
-      <div class="color-group">
-        <p data-i18n="selectcolorshadow"></p>
-        <div class="color-div" id="shadow-color"></div>
-      </div>
-    </div>
-    <button class="btn" id="reload" data-i18n="applyrule"></button>
-    
-    <p data-i18n="easteregg"></p>
-  </div>
-  
+    </form>
+    <footer><span class="privacy-dot" aria-hidden="true"></span><span data-i18n="privacy"></span></footer>
+  </main>
+  <script src="scripts/shared.js"></script>
   <script src="scripts/i18n.js"></script>
   <script src="scripts/popup.js"></script>
 </body>
-
 </html>

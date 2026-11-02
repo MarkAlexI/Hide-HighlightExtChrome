@@ -1,25 +1,131 @@
 {
-  "chromename": { "message": "Hide & Highlight" },
-  "description": { "message": "\"Hide & Highlight\" allows you to hide or highlight any text nodes on web pages for convenient display to other people." },
-  "defaulttitle": { "message": "Modify visibility of important text" },
-  "header": { "message": "Hide & Highlight Extension" },
-  "info1": { "message": "Use this extension to blur or highlight specific text on the page. Allow text modification to apply styles." },
-  "info2": { "message": "The text of the web page on which this popup is called is modified." },
-  "enable": { "message": "Enable Text Modification:" },
-  "selectmode": { "message": "Select Mode:" },
-  "bluroption": { "message": "Blur" },
-  "highlightoption": { "message": "Highlight" },
-  "placeholder": { "message": "Enter keywords to change" },
-  "info4": { "message": "For multiple hiding/highlighting, enter search words in the field below, separated by semicolons; for example: apple;sun;tree" },
-  "info3": { "message": "You can change the colors. After that, you need to close the options page and reopen this pop-up on the desired page." },
-  "selectcolortext": { "message": "Select color of text:" },
-  "selectcolorshadow": { "message": "Select color of shadow:" },
-  "applyrule": { "message": "Apply rule" },
-  "optionstitle": { "message": "Color Options" },
-  "optionsheader": { "message": "Select Colors" },
-  "optionsinfo": { "message": "Select the desired colors, press \"Save\", close this page and reopen the pop-up (icon of this add-on on the upper right of browser window) on the desired page." },
-  "textcolor": { "message": "Text Color: " },
-  "shadowcolor": { "message": "Shadow Color: " },
-  "savebutton": { "message": "Save" },
-  "easteregg": { "message": "Usage tips:\n• To search for an exact phrase, enter words with spaces (e.g., apple pie).\n• To match a single word or part of a word, just enter that fragment (e.g., app).\n• To check multiple words or fragments separately, use semicolons (;) to separate them (e.g., app;pie;berry)." }
+  "chromename": {
+    "message": "Hide & Highlight"
+  },
+  "defaulttitle": {
+    "message": "Hide & Highlight"
+  },
+  "description": {
+    "message": "Blur words and highlight phrases on webpages. Prepare clearer screenshots, presentations, and reading views."
+  },
+  "currentTab": {
+    "message": "This tab"
+  },
+  "blurLabel": {
+    "message": "Blur these words"
+  },
+  "highlightLabel": {
+    "message": "Highlight these words"
+  },
+  "termsHint": {
+    "message": "Separate words or phrases with ; or a new line."
+  },
+  "wholeWords": {
+    "message": "Whole words"
+  },
+  "matchCase": {
+    "message": "Match case"
+  },
+  "colorsLabel": {
+    "message": "Colors"
+  },
+  "customColors": {
+    "message": "Custom"
+  },
+  "previewLabel": {
+    "message": "Preview"
+  },
+  "previewText": {
+    "message": "Important text"
+  },
+  "rememberSite": {
+    "message": "Remember on this site"
+  },
+  "apply": {
+    "message": "Apply"
+  },
+  "applyClose": {
+    "message": "Apply & return"
+  },
+  "pause": {
+    "message": "Pause"
+  },
+  "resume": {
+    "message": "Resume"
+  },
+  "reset": {
+    "message": "Remove effects"
+  },
+  "statusReady": {
+    "message": "Enter words, then apply."
+  },
+  "statusPaused": {
+    "message": "Paused on this tab."
+  },
+  "noMatches": {
+    "message": "No matches on this page."
+  },
+  "matchCounts": {
+    "message": "$1 blurred · $2 highlighted"
+  },
+  "unavailable": {
+    "message": "Open or reload a regular webpage to use this extension. Browser pages and some protected sites are unavailable."
+  },
+  "error": {
+    "message": "Could not save changes. Try again."
+  },
+  "removed": {
+    "message": "Effects removed. Your words are kept."
+  },
+  "privacy": {
+    "message": "No account. Rules stay in this browser."
+  },
+  "optionsTitle": {
+    "message": "Custom colors"
+  },
+  "backgroundColor": {
+    "message": "Highlight background"
+  },
+  "textColor": {
+    "message": "Text color"
+  },
+  "shadowColor": {
+    "message": "Shadow color"
+  },
+  "useShadow": {
+    "message": "Add a text shadow"
+  },
+  "saveColors": {
+    "message": "Save colors"
+  },
+  "restoreColors": {
+    "message": "Restore defaults"
+  },
+  "saved": {
+    "message": "Colors saved."
+  },
+  "returnTab": {
+    "message": "Return to page"
+  },
+  "limitReached": {
+    "message": "Showing up to 5,000 matches."
+  },
+  "amber": {
+    "message": "Amber"
+  },
+  "mint": {
+    "message": "Mint"
+  },
+  "sky": {
+    "message": "Sky"
+  },
+  "rose": {
+    "message": "Rose"
+  },
+  "lavender": {
+    "message": "Lavender"
+  },
+  "termLimit": {
+    "message": "Use up to 100 words or phrases in each list."
+  }
 }

@@ -1,24 +1,131 @@
 {
-  "chromename": { "message": "非表示とハイライト" },
-  "description": { "message": "「非表示とハイライト」は、ウェブページ上の任意のテキストノードを非表示またはハイライトし、他の人に便利に表示することができます。" },
-  "defaulttitle": { "message": "重要なテキストの表示を変更する" },
-  "header": { "message": "「非表示とハイライト」拡張機能" },
-  "info1": { "message": "この拡張機能を使用して、ページ上の特定のテキストをぼかしたりハイライトしたりできます。スタイルを適用するにはテキストの変更を有効にしてください。" },
-  "info2": { "message": "このポップアップが呼び出されたウェブページのテキストが変更されます。" },
-  "enable": { "message": "テキスト変更を有効にする：" },
-  "selectmode": { "message": "モードを選択：" },
-  "bluroption": { "message": "ぼかし" },
-  "highlightoption": { "message": "ハイライト" },
-  "placeholder": { "message": "変更するキーワードを入力してください" },
-  "info4": { "message": "複数の非表示／強調表示を行うには、以下の欄に検索語をセミコロンで区切って入力してください。例：りんご;たいよう;き" },
-  "info3": { "message": "色を変更できます。その後、オプションページを閉じ、このポップアップを再度開いてください。" },
-  "selectcolortext": { "message": "テキストの色を選択：" },
-  "selectcolorshadow": { "message": "影の色を選択：" },
-  "applyrule": { "message": "ルールを適用" },
-  "optionstitle": { "message": "色のオプション" },
-  "optionsheader": { "message": "色を選択" },
-  "optionsinfo": { "message": "希望する色を選択し、「保存」を押して、このページを閉じてください。その後、目的のページでこのポップアップ（ブラウザウィンドウの右上にあるこの拡張機能のアイコン）を再度開いてください。" },
-  "textcolor": { "message": "テキストの色：" },
-  "shadowcolor": { "message": "影の色：" },
-  "savebutton": { "message": "保存" }
+  "chromename": {
+    "message": "非表示とハイライト"
+  },
+  "defaulttitle": {
+    "message": "非表示とハイライト"
+  },
+  "description": {
+    "message": "ウェブページの単語をぼかし、大切なテキストを強調。スクリーンショット、プレゼンテーション、読みやすい表示に。"
+  },
+  "currentTab": {
+    "message": "このタブ"
+  },
+  "blurLabel": {
+    "message": "ぼかす単語"
+  },
+  "highlightLabel": {
+    "message": "強調する単語"
+  },
+  "termsHint": {
+    "message": "単語やフレーズは ; または改行で区切ります。"
+  },
+  "wholeWords": {
+    "message": "単語全体"
+  },
+  "matchCase": {
+    "message": "大文字・小文字を区別"
+  },
+  "colorsLabel": {
+    "message": "色"
+  },
+  "customColors": {
+    "message": "カスタム"
+  },
+  "previewLabel": {
+    "message": "プレビュー"
+  },
+  "previewText": {
+    "message": "重要なテキスト"
+  },
+  "rememberSite": {
+    "message": "このサイトで記憶する"
+  },
+  "apply": {
+    "message": "適用"
+  },
+  "applyClose": {
+    "message": "適用して閉じる"
+  },
+  "pause": {
+    "message": "一時停止"
+  },
+  "resume": {
+    "message": "再開"
+  },
+  "reset": {
+    "message": "効果を解除"
+  },
+  "statusReady": {
+    "message": "単語を入力して適用してください。"
+  },
+  "statusPaused": {
+    "message": "このタブで一時停止中です。"
+  },
+  "noMatches": {
+    "message": "このページに一致するテキストはありません。"
+  },
+  "matchCounts": {
+    "message": "ぼかし $1 件 · 強調 $2 件"
+  },
+  "unavailable": {
+    "message": "通常のウェブページを開くか再読み込みしてください。ブラウザー内部のページや一部の保護されたサイトでは使用できません。"
+  },
+  "error": {
+    "message": "変更を保存できませんでした。もう一度お試しください。"
+  },
+  "removed": {
+    "message": "効果を解除しました。単語は保持されます。"
+  },
+  "privacy": {
+    "message": "アカウント不要。ルールはこのブラウザーに保存されます。"
+  },
+  "optionsTitle": {
+    "message": "色のカスタマイズ"
+  },
+  "backgroundColor": {
+    "message": "強調の背景色"
+  },
+  "textColor": {
+    "message": "文字色"
+  },
+  "shadowColor": {
+    "message": "影の色"
+  },
+  "useShadow": {
+    "message": "文字に影を付ける"
+  },
+  "saveColors": {
+    "message": "色を保存"
+  },
+  "restoreColors": {
+    "message": "初期設定に戻す"
+  },
+  "saved": {
+    "message": "色を保存しました。"
+  },
+  "returnTab": {
+    "message": "ページに戻る"
+  },
+  "limitReached": {
+    "message": "最大 5,000 件の一致を表示します。"
+  },
+  "amber": {
+    "message": "アンバー"
+  },
+  "mint": {
+    "message": "ミント"
+  },
+  "sky": {
+    "message": "スカイ"
+  },
+  "rose": {
+    "message": "ローズ"
+  },
+  "lavender": {
+    "message": "ラベンダー"
+  },
+  "termLimit": {
+    "message": "各リストに最大100個の単語またはフレーズを入力できます。"
+  }
 }

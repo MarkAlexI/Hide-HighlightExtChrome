@@ -1,23 +1,131 @@
 {
-  "chromename": { "message": "Nascondi e Evidenzia" },
-  "description": { "message": "\"Nascondi e Evidenzia\" ti permette di nascondere o evidenziare qualsiasi testo nelle pagine web per una visualizzazione più comoda ad altre persone." },
-  "defaulttitle": { "message": "Modifica la visibilità del testo importante" },
-  "header": { "message": "Estensione Nascondi e Evidenzia" },
-  "info1": { "message": "Usa questa estensione per sfocare o evidenziare testo specifico sulla pagina. Consenti la modifica del testo per applicare gli stili." },
-  "info2": { "message": "Il testo della pagina web su cui viene aperto questo pop-up verrà modificato." },
-  "enable": { "message": "Abilita modifica del testo:" },
-  "selectmode": { "message": "Seleziona modalità:" },
-  "bluroption": { "message": "Sfoca" },
-  "highlightoption": { "message": "Evidenzia" },
-  "placeholder": { "message": "Inserisci parola chiave da modificare" },
-  "info3": { "message": "Puoi cambiare i colori. Dopo averlo fatto, chiudi la pagina delle opzioni e riapri questo pop-up sulla pagina desiderata." },
-  "selectcolortext": { "message": "Seleziona colore del testo:" },
-  "selectcolorshadow": { "message": "Seleziona colore dell'ombra:" },
-  "applyrule": { "message": "Applica regola" },
-  "optionstitle": { "message": "Opzioni colore" },
-  "optionsheader": { "message": "Seleziona colori" },
-  "optionsinfo": { "message": "Seleziona i colori desiderati, premi \"Salva\", chiudi questa pagina e riapri il pop-up (icona di questa estensione in alto a destra nella finestra del browser) sulla pagina desiderata." },
-  "textcolor": { "message": "Colore del testo: " },
-  "shadowcolor": { "message": "Colore dell'ombra: " },
-  "savebutton": { "message": "Salva" }
+  "chromename": {
+    "message": "Nascondi e Evidenzia"
+  },
+  "defaulttitle": {
+    "message": "Nascondi e Evidenzia"
+  },
+  "description": {
+    "message": "Sfoca parole ed evidenzia testo nelle pagine web per screenshot, presentazioni e lettura."
+  },
+  "currentTab": {
+    "message": "Questa scheda"
+  },
+  "blurLabel": {
+    "message": "Parole da sfocare"
+  },
+  "highlightLabel": {
+    "message": "Parole da evidenziare"
+  },
+  "termsHint": {
+    "message": "Separa parole o frasi con ; o una nuova riga."
+  },
+  "wholeWords": {
+    "message": "Parole intere"
+  },
+  "matchCase": {
+    "message": "Maiuscole/minuscole"
+  },
+  "colorsLabel": {
+    "message": "Colori"
+  },
+  "customColors": {
+    "message": "Personalizza"
+  },
+  "previewLabel": {
+    "message": "Anteprima"
+  },
+  "previewText": {
+    "message": "Testo importante"
+  },
+  "rememberSite": {
+    "message": "Ricorda per questo sito"
+  },
+  "apply": {
+    "message": "Applica"
+  },
+  "applyClose": {
+    "message": "Applica e chiudi"
+  },
+  "pause": {
+    "message": "Pausa"
+  },
+  "resume": {
+    "message": "Riprendi"
+  },
+  "reset": {
+    "message": "Rimuovi effetti"
+  },
+  "statusReady": {
+    "message": "Inserisci parole e applica."
+  },
+  "statusPaused": {
+    "message": "In pausa in questa scheda."
+  },
+  "noMatches": {
+    "message": "Nessuna corrispondenza in questa pagina."
+  },
+  "matchCounts": {
+    "message": "$1 sfocate · $2 evidenziate"
+  },
+  "unavailable": {
+    "message": "Apri o ricarica una normale pagina web. Le pagine del browser e alcuni siti protetti non sono disponibili."
+  },
+  "error": {
+    "message": "Impossibile salvare. Riprova."
+  },
+  "removed": {
+    "message": "Effetti rimossi. Le parole sono conservate."
+  },
+  "privacy": {
+    "message": "Senza account. Le regole restano in questo browser."
+  },
+  "optionsTitle": {
+    "message": "Colori personalizzati"
+  },
+  "backgroundColor": {
+    "message": "Sfondo evidenziazione"
+  },
+  "textColor": {
+    "message": "Colore testo"
+  },
+  "shadowColor": {
+    "message": "Colore ombra"
+  },
+  "useShadow": {
+    "message": "Aggiungi un’ombra al testo"
+  },
+  "saveColors": {
+    "message": "Salva colori"
+  },
+  "restoreColors": {
+    "message": "Ripristina predefiniti"
+  },
+  "saved": {
+    "message": "Colori salvati."
+  },
+  "returnTab": {
+    "message": "Torna alla pagina"
+  },
+  "limitReached": {
+    "message": "Mostrate fino a 5.000 corrispondenze."
+  },
+  "amber": {
+    "message": "Ambra"
+  },
+  "mint": {
+    "message": "Menta"
+  },
+  "sky": {
+    "message": "Azzurro"
+  },
+  "rose": {
+    "message": "Rosa"
+  },
+  "lavender": {
+    "message": "Lavanda"
+  },
+  "termLimit": {
+    "message": "Usa fino a 100 parole o frasi per elenco."
+  }
 }

@@ -1,24 +1,131 @@
 {
-  "chromename": { "message": "Masquer et Mettre en Évidence" },
-  "description": { "message": "\"Masquer et Mettre en Évidence\" vous permet de masquer ou de mettre en évidence n'importe quel nœud de texte sur les pages web pour un affichage pratique à d'autres personnes." },
-  "defaulttitle": { "message": "Modifier la visibilité des textes importants" },
-  "header": { "message": "Extension \"Masquer et Mettre en Évidence\"" },
-  "info1": { "message": "Utilisez cette extension pour flouter ou mettre en évidence un texte spécifique sur la page. Activez la modification du texte pour appliquer les styles." },
-  "info2": { "message": "Le texte de la page web sur laquelle cette fenêtre contextuelle est ouverte sera modifié." },
-  "enable": { "message": "Activer la modification du texte :" },
-  "selectmode": { "message": "Sélectionner le mode :" },
-  "bluroption": { "message": "Flouter" },
-  "highlightoption": { "message": "Mettre en évidence" },
-  "placeholder": { "message": "Entrez les mots-clés à modifier" },
-  "info4": { "message": "Pour masquer/surligner plusieurs mots, saisissez dans le champ ci-dessous les mots de recherche séparés par des points-virgules ; par exemple : pomme;soleil;arbre" },
-  "info3": { "message": "Vous pouvez changer les couleurs. Ensuite, vous devez fermer la page des options et rouvrir cette fenêtre contextuelle sur la page souhaitée." },
-  "selectcolortext": { "message": "Choisir la couleur du texte :" },
-  "selectcolorshadow": { "message": "Choisir la couleur de l'ombre :" },
-  "applyrule": { "message": "Appliquer la règle" },
-  "optionstitle": { "message": "Options de Couleur" },
-  "optionsheader": { "message": "Sélectionner les Couleurs" },
-  "optionsinfo": { "message": "Choisissez les couleurs souhaitées, cliquez sur \"Enregistrer\", fermez cette page et rouvrez la fenêtre contextuelle (icône de cette extension en haut à droite de la fenêtre du navigateur) sur la page souhaitée." },
-  "textcolor": { "message": "Couleur du texte : " },
-  "shadowcolor": { "message": "Couleur de l'ombre : " },
-  "savebutton": { "message": "Enregistrer" }
+  "chromename": {
+    "message": "Masquer et Mettre en Évidence"
+  },
+  "defaulttitle": {
+    "message": "Masquer et Mettre en Évidence"
+  },
+  "description": {
+    "message": "Floutez des mots et surlignez du texte sur les pages web pour vos captures, présentations et lectures."
+  },
+  "currentTab": {
+    "message": "Cet onglet"
+  },
+  "blurLabel": {
+    "message": "Mots à flouter"
+  },
+  "highlightLabel": {
+    "message": "Mots à surligner"
+  },
+  "termsHint": {
+    "message": "Séparez les mots ou expressions par ; ou un saut de ligne."
+  },
+  "wholeWords": {
+    "message": "Mots entiers"
+  },
+  "matchCase": {
+    "message": "Respecter la casse"
+  },
+  "colorsLabel": {
+    "message": "Couleurs"
+  },
+  "customColors": {
+    "message": "Personnaliser"
+  },
+  "previewLabel": {
+    "message": "Aperçu"
+  },
+  "previewText": {
+    "message": "Texte important"
+  },
+  "rememberSite": {
+    "message": "Mémoriser pour ce site"
+  },
+  "apply": {
+    "message": "Appliquer"
+  },
+  "applyClose": {
+    "message": "Appliquer et fermer"
+  },
+  "pause": {
+    "message": "Pause"
+  },
+  "resume": {
+    "message": "Reprendre"
+  },
+  "reset": {
+    "message": "Retirer les effets"
+  },
+  "statusReady": {
+    "message": "Saisissez des mots, puis appliquez."
+  },
+  "statusPaused": {
+    "message": "En pause dans cet onglet."
+  },
+  "noMatches": {
+    "message": "Aucune correspondance sur cette page."
+  },
+  "matchCounts": {
+    "message": "$1 floutées · $2 surlignées"
+  },
+  "unavailable": {
+    "message": "Ouvrez ou rechargez une page web classique. Les pages du navigateur et certains sites protégés sont indisponibles."
+  },
+  "error": {
+    "message": "Impossible d’enregistrer. Réessayez."
+  },
+  "removed": {
+    "message": "Effets retirés. Vos mots sont conservés."
+  },
+  "privacy": {
+    "message": "Sans compte. Les règles restent dans ce navigateur."
+  },
+  "optionsTitle": {
+    "message": "Couleurs personnalisées"
+  },
+  "backgroundColor": {
+    "message": "Fond du surlignage"
+  },
+  "textColor": {
+    "message": "Couleur du texte"
+  },
+  "shadowColor": {
+    "message": "Couleur de l’ombre"
+  },
+  "useShadow": {
+    "message": "Ajouter une ombre au texte"
+  },
+  "saveColors": {
+    "message": "Enregistrer les couleurs"
+  },
+  "restoreColors": {
+    "message": "Couleurs par défaut"
+  },
+  "saved": {
+    "message": "Couleurs enregistrées."
+  },
+  "returnTab": {
+    "message": "Revenir à la page"
+  },
+  "limitReached": {
+    "message": "Jusqu’à 5 000 correspondances affichées."
+  },
+  "amber": {
+    "message": "Ambre"
+  },
+  "mint": {
+    "message": "Menthe"
+  },
+  "sky": {
+    "message": "Bleu ciel"
+  },
+  "rose": {
+    "message": "Rose"
+  },
+  "lavender": {
+    "message": "Lavande"
+  },
+  "termLimit": {
+    "message": "Utilisez au maximum 100 mots ou expressions par liste."
+  }
 }

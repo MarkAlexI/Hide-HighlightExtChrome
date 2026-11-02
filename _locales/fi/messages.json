@@ -1,23 +1,131 @@
 {
-  "chromename": { "message": "Piilota & Korosta" },
-  "description": { "message": "\"Piilota & Korosta\" antaa sinun piilottaa tai korostaa minkä tahansa verkkosivun tekstielementin, jotta voit esitellä sisältöä helposti muille." },
-  "defaulttitle": { "message": "Muokkaa tärkeän tekstin näkyvyyttä" },
-  "header": { "message": "Piilota & Korosta -laajennus" },
-  "info1": { "message": "Käytä tätä laajennusta sumentaaksesi tai korostaaksesi tiettyä tekstiä sivulla. Salli tekstin muokkaaminen tyylien soveltamiseksi." },
-  "info2": { "message": "Sen verkkosivun tekstiä, jolla tämä ponnahdusikkuna avataan, muokataan." },
-  "enable": { "message": "Ota tekstin muokkaus käyttöön:" },
-  "selectmode": { "message": "Valitse tila:" },
-  "bluroption": { "message": "Sumenna" },
-  "highlightoption": { "message": "Korosta" },
-  "placeholder": { "message": "Syötä avainsana muokattavaksi" },
-  "info3": { "message": "Voit muuttaa värejä. Tämän jälkeen sinun on suljettava asetussivu ja avattava tämä ponnahdusikkuna uudelleen halutulla sivulla." },
-  "selectcolortext": { "message": "Valitse tekstin väri:" },
-  "selectcolorshadow": { "message": "Valitse varjon väri:" },
-  "applyrule": { "message": "Käytä sääntöä" },
-  "optionstitle": { "message": "Väriasetukset" },
-  "optionsheader": { "message": "Valitse värit" },
-  "optionsinfo": { "message": "Valitse haluamasi värit, paina \"Tallenna\", sulje tämä sivu ja avaa ponnahdusikkuna uudelleen (tämän lisäosan kuvake selaimen oikeassa yläkulmassa) halutulla sivulla." },
-  "textcolor": { "message": "Tekstin väri: " },
-  "shadowcolor": { "message": "Varjon väri: " },
-  "savebutton": { "message": "Tallenna" }
+  "chromename": {
+    "message": "Piilota & Korosta"
+  },
+  "defaulttitle": {
+    "message": "Piilota & Korosta"
+  },
+  "description": {
+    "message": "Sumenna sanoja ja korosta tekstiä verkkosivuilla kuvakaappauksia, esityksiä ja lukemista varten."
+  },
+  "currentTab": {
+    "message": "Tämä välilehti"
+  },
+  "blurLabel": {
+    "message": "Sumenna nämä sanat"
+  },
+  "highlightLabel": {
+    "message": "Korosta nämä sanat"
+  },
+  "termsHint": {
+    "message": "Erota sanat tai ilmaukset puolipisteellä ; tai rivinvaihdolla."
+  },
+  "wholeWords": {
+    "message": "Kokonaiset sanat"
+  },
+  "matchCase": {
+    "message": "Huomioi kirjainkoko"
+  },
+  "colorsLabel": {
+    "message": "Värit"
+  },
+  "customColors": {
+    "message": "Mukauta"
+  },
+  "previewLabel": {
+    "message": "Esikatselu"
+  },
+  "previewText": {
+    "message": "Tärkeä teksti"
+  },
+  "rememberSite": {
+    "message": "Muista tällä sivustolla"
+  },
+  "apply": {
+    "message": "Käytä"
+  },
+  "applyClose": {
+    "message": "Käytä ja sulje"
+  },
+  "pause": {
+    "message": "Keskeytä"
+  },
+  "resume": {
+    "message": "Jatka"
+  },
+  "reset": {
+    "message": "Poista tehosteet"
+  },
+  "statusReady": {
+    "message": "Kirjoita sanat ja käytä."
+  },
+  "statusPaused": {
+    "message": "Keskeytetty tällä välilehdellä."
+  },
+  "noMatches": {
+    "message": "Ei osumia tällä sivulla."
+  },
+  "matchCounts": {
+    "message": "$1 sumennettu · $2 korostettu"
+  },
+  "unavailable": {
+    "message": "Avaa tavallinen verkkosivu tai lataa se uudelleen. Selaimen sivut ja osa suojatuista sivustoista eivät ole käytettävissä."
+  },
+  "error": {
+    "message": "Tallennus epäonnistui. Yritä uudelleen."
+  },
+  "removed": {
+    "message": "Tehosteet poistettu. Sanasi on säilytetty."
+  },
+  "privacy": {
+    "message": "Ei tiliä. Säännöt pysyvät tässä selaimessa."
+  },
+  "optionsTitle": {
+    "message": "Mukautetut värit"
+  },
+  "backgroundColor": {
+    "message": "Korostuksen tausta"
+  },
+  "textColor": {
+    "message": "Tekstin väri"
+  },
+  "shadowColor": {
+    "message": "Varjon väri"
+  },
+  "useShadow": {
+    "message": "Lisää tekstivarjo"
+  },
+  "saveColors": {
+    "message": "Tallenna värit"
+  },
+  "restoreColors": {
+    "message": "Palauta oletukset"
+  },
+  "saved": {
+    "message": "Värit tallennettu."
+  },
+  "returnTab": {
+    "message": "Palaa sivulle"
+  },
+  "limitReached": {
+    "message": "Näytetään enintään 5 000 osumaa."
+  },
+  "amber": {
+    "message": "Meripihka"
+  },
+  "mint": {
+    "message": "Minttu"
+  },
+  "sky": {
+    "message": "Taivaansininen"
+  },
+  "rose": {
+    "message": "Roosa"
+  },
+  "lavender": {
+    "message": "Laventeli"
+  },
+  "termLimit": {
+    "message": "Käytä enintään 100 sanaa tai ilmausta luetteloa kohden."
+  }
 }

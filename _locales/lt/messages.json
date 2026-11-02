@@ -1,23 +1,131 @@
 {
-  "chromename": { "message": "Slėpti ir Parodyti" },
-  "description": { "message": "\"Slėpti ir Parodyti\" leidžia slėpti arba paryškinti bet kokius teksto mazgus tinklalapiuose, kad būtų patogu juos rodyti kitiems žmonėms." },
-  "defaulttitle": { "message": "Keisti svarbaus teksto matomumą" },
-  "header": { "message": "Slėpti ir Parodyti Plėtinys" },
-  "info1": { "message": "Naudokite šį plėtinį norėdami sulieti arba paryškinti konkretų puslapio tekstą. Leiskite teksto modifikavimą, kad pritaikytumėte stilius." },
-  "info2": { "message": "Tinklalapio, kuriame iškviečiamas šis iššokantis langas, tekstas yra modifikuojamas." },
-  "enable": { "message": "Įjungti teksto modifikavimą:" },
-  "selectmode": { "message": "Pasirinkite režimą:" },
-  "bluroption": { "message": "Sulieti" },
-  "highlightoption": { "message": "Paryškinti" },
-  "placeholder": { "message": "Įveskite raktažodį keitimui" },
-  "info3": { "message": "Galite pakeisti spalvas. Po to reikia uždaryti parinkčių puslapį ir iš naujo atidaryti šį iššokantį langą norimame puslapyje." },
-  "selectcolortext": { "message": "Pasirinkite teksto spalvą:" },
-  "selectcolorshadow": { "message": "Pasirinkite šešėlio spalvą:" },
-  "applyrule": { "message": "Taikyti taisyklę" },
-  "optionstitle": { "message": "Spalvų parinktys" },
-  "optionsheader": { "message": "Pasirinkite spalvas" },
-  "optionsinfo": { "message": "Pasirinkite norimas spalvas, paspauskite „Išsaugoti“, uždarykite šį puslapį ir iš naujo atidarykite iššokantį langą (šio plėtinio piktograma naršyklės viršutiniame dešiniajame kampe) norimame puslapyje." },
-  "textcolor": { "message": "Teksto spalva: " },
-  "shadowcolor": { "message": "Šešėlio spalva: " },
-  "savebutton": { "message": "Išsaugoti" }
+  "chromename": {
+    "message": "Slėpti ir Parodyti"
+  },
+  "defaulttitle": {
+    "message": "Slėpti ir Parodyti"
+  },
+  "description": {
+    "message": "Suliekite žodžius ir paryškinkite tekstą tinklalapiuose ekrano kopijoms, pristatymams ir skaitymui."
+  },
+  "currentTab": {
+    "message": "Šis skirtukas"
+  },
+  "blurLabel": {
+    "message": "Sulieti šiuos žodžius"
+  },
+  "highlightLabel": {
+    "message": "Paryškinti šiuos žodžius"
+  },
+  "termsHint": {
+    "message": "Žodžius ar frazes atskirkite ženklu ; arba nauja eilute."
+  },
+  "wholeWords": {
+    "message": "Visi žodžiai"
+  },
+  "matchCase": {
+    "message": "Skirti raidžių dydį"
+  },
+  "colorsLabel": {
+    "message": "Spalvos"
+  },
+  "customColors": {
+    "message": "Pasirinkti"
+  },
+  "previewLabel": {
+    "message": "Peržiūra"
+  },
+  "previewText": {
+    "message": "Svarbus tekstas"
+  },
+  "rememberSite": {
+    "message": "Įsiminti šiai svetainei"
+  },
+  "apply": {
+    "message": "Taikyti"
+  },
+  "applyClose": {
+    "message": "Taikyti ir užverti"
+  },
+  "pause": {
+    "message": "Pristabdyti"
+  },
+  "resume": {
+    "message": "Tęsti"
+  },
+  "reset": {
+    "message": "Pašalinti efektus"
+  },
+  "statusReady": {
+    "message": "Įveskite žodžius ir taikykite."
+  },
+  "statusPaused": {
+    "message": "Pristabdyta šiame skirtuke."
+  },
+  "noMatches": {
+    "message": "Šiame puslapyje atitikmenų nėra."
+  },
+  "matchCounts": {
+    "message": "Sulieta: $1 · Paryškinta: $2"
+  },
+  "unavailable": {
+    "message": "Atverkite arba įkelkite įprastą tinklalapį iš naujo. Naršyklės puslapiai ir kai kurios apsaugotos svetainės nepasiekiamos."
+  },
+  "error": {
+    "message": "Nepavyko išsaugoti pakeitimų. Bandykite dar kartą."
+  },
+  "removed": {
+    "message": "Efektai pašalinti. Jūsų žodžiai išsaugoti."
+  },
+  "privacy": {
+    "message": "Be paskyros. Taisyklės lieka šioje naršyklėje."
+  },
+  "optionsTitle": {
+    "message": "Pasirinktinės spalvos"
+  },
+  "backgroundColor": {
+    "message": "Paryškinimo fonas"
+  },
+  "textColor": {
+    "message": "Teksto spalva"
+  },
+  "shadowColor": {
+    "message": "Šešėlio spalva"
+  },
+  "useShadow": {
+    "message": "Pridėti teksto šešėlį"
+  },
+  "saveColors": {
+    "message": "Išsaugoti spalvas"
+  },
+  "restoreColors": {
+    "message": "Atkurti numatytąsias"
+  },
+  "saved": {
+    "message": "Spalvos išsaugotos."
+  },
+  "returnTab": {
+    "message": "Grįžti į puslapį"
+  },
+  "limitReached": {
+    "message": "Rodoma iki 5 000 atitikmenų."
+  },
+  "amber": {
+    "message": "Gintaro"
+  },
+  "mint": {
+    "message": "Mėtų"
+  },
+  "sky": {
+    "message": "Dangaus"
+  },
+  "rose": {
+    "message": "Rožinė"
+  },
+  "lavender": {
+    "message": "Levandų"
+  },
+  "termLimit": {
+    "message": "Kiekviename sąraše naudokite iki 100 žodžių ar frazių."
+  }
 }

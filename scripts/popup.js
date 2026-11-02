@@ -1,126 +1,127 @@
-"use strict";
-
-const updateBadge = (isActive = false) => {
-  const label = isActive ? "ON" : "OFF";
-  const badgeColor = isActive ? "#0000FF" : "#A9A9A9";
-
-  chrome.action.setBadgeText({ text: label });
-  chrome.action.setBadgeBackgroundColor({ "color": badgeColor });
-};
-
-const apply = () => {
-  chrome.storage.sync.remove(["timestamp"], () => {
-    chrome.storage.sync.set({
-      "timestamp": Date.now()
-    });
-  });
-};
-
-const toggleSwitch = document.getElementById("toggle-visibility");
-const textInput = document.getElementById("blur-text");
-const modeSelect = document.getElementById("mode-select");
-const selectColor = document.getElementById("select-color");
-const textColor = document.getElementById("text-color");
-const shadowColor = document.getElementById("shadow-color");
-const reloadBtn = document.getElementById("reload");
-
-chrome.storage.sync.get(["isActive", "targetText", "mode", "textColor", "shadowColor"], (data) => {
-  toggleSwitch.checked = !!data.isActive;
-  updateBadge(data.isActive);
-  textInput.value = data.targetText || "";
-  modeSelect.value = data.mode || "blur";
-  textColor.style.backgroundColor = data.textColor || "#ff5722";
-  shadowColor.style.backgroundColor = data.shadowColor || "#ff0000";
-  reloadBtn.style.display = data.isActive ? "block" : "none";
-
-  if (modeSelect.value === "highlight") {
-    setTimeout(function() {
-      selectColor.classList.remove("hidden");
-    }, 0);
+(() => {
+  "use strict";
+  const api = globalThis.browser || globalThis.chrome;
+  const $ = id => document.getElementById(id);
+  let tabId = null;
+  let config = null;
+  let colors = HH.normalizeColors();
+  let busy = false;
+  let draftWrite = Promise.resolve();
+  const request = async message => {
+    const response = await api.runtime.sendMessage(message);
+    if (!response?.ok) throw new Error("operation_failed");
+    return response;
+  };
+  function rule() {
+    return HH.normalizeRule({ enabled: true, blurText: $("blur-words").value, highlightText: $("highlight-words").value, wholeWords: $("whole-words").checked, caseSensitive: $("match-case").checked, scope: $("remember-site").checked ? "site" : "tab" });
   }
-});
-
-toggleSwitch.addEventListener("change", (event) => {
-  const isActive = event.target.checked;
-
-  chrome.storage.sync.set({
-    "isActive": isActive,
-    "timestamp": Date.now()
-  });
-  updateBadge(isActive);
-  setTimeout(function() {
-    reloadBtn.style.display = isActive ? "block" : "none";
-  }, 0);
-
-  if (!isActive) {
-    textInput.value = "";
-    chrome.storage.sync.set({
-      "targetText": textInput.value
-    });
-    apply();
+  function saveDraft() {
+    if (!Number.isInteger(tabId)) return Promise.resolve();
+    const current = rule();
+    draftWrite = draftWrite.catch(() => {}).then(() => request({ type: "hh:draft", tabId, rule: current }));
+    return draftWrite;
   }
-});
-
-textColor.addEventListener("click", () => {
-  chrome.runtime.openOptionsPage ?
-    chrome.runtime.openOptionsPage() :
-    chrome.tabs.create({ url: chrome.runtime.getURL("options/color-options.html") });
-});
-
-shadowColor.addEventListener("click", () => {
-  chrome.runtime.openOptionsPage ?
-    chrome.runtime.openOptionsPage() :
-    chrome.tabs.create({ url: chrome.runtime.getURL("options/color-options.html") });
-});
-
-modeSelect.addEventListener("change", () => {
-  if (modeSelect.value === "highlight") {
-    setTimeout(function() {
-      selectColor.classList.remove("hidden");
-    }, 0);
-  } else {
-    selectColor.classList.add("hidden");
+  function setStatus(key, args) { $("status").textContent = hhMessage(key, args); }
+  function renderStatus(status) {
+    if (!config?.hasRule) { setStatus("statusReady"); return; }
+    if (!status?.enabled && status?.enabled !== undefined || !config.enabled) { setStatus("statusPaused"); return; }
+    const counts = status?.counts || { blur: 0, highlight: 0 };
+    if (status?.limited) setStatus("limitReached");
+    else if (!counts.blur && !counts.highlight) setStatus("noMatches");
+    else setStatus("matchCounts", [String(counts.blur), String(counts.highlight)]);
   }
-});
-
-reloadBtn.addEventListener("click", () => {
-  const inputValue = textInput.value;
-  const selectedMode = modeSelect.value;
-
-  chrome.storage.sync.set({
-    "targetText": inputValue,
-    "mode": selectedMode
-  }, () => {
-    apply();
-  });
-});
-
-chrome.storage.onChanged.addListener((changes) => {
-  if (changes.textColor) {
-    textColor.style.backgroundColor = changes.textColor.newValue;
+  function renderConfig(next) {
+    config = next;
+    $("pause").disabled = !next?.hasRule;
+    $("pause").textContent = hhMessage(next?.enabled ? "pause" : "resume");
+    $("pause").setAttribute("aria-pressed", String(Boolean(next?.hasRule && !next.enabled)));
+    $("reset").disabled = !next?.hasRule;
   }
-  if (changes.shadowColor) {
-    shadowColor.style.backgroundColor = changes.shadowColor.newValue;
-  }
-});
-
-let initialViewportHeight = window.visualViewport ? window.visualViewport.height : window.innerHeight;
-
-function handleViewportChange() {
-  if (window.visualViewport) {
-    const currentHeight = window.visualViewport.height;
-    const heightDifference = initialViewportHeight - currentHeight;
-    
-    if (heightDifference > 150) {
-      document.body.classList.add("keyboard-visible");
-      document.body.style.paddingBottom = heightDifference + "px";
-    } else {
-      document.body.classList.remove("keyboard-visible");
-      document.body.style.paddingBottom = "0px";
+  function renderColors() {
+    const group = $("presets");
+    for (const preset of HH.PRESETS) {
+      const existing = group.querySelector(`[data-preset="${preset.name}"]`);
+      if (existing) { existing.setAttribute("aria-pressed", String(colors.background === preset.background && colors.text === preset.text)); continue; }
+      const button = document.createElement("button");
+      button.type = "button"; button.className = "swatch"; button.dataset.preset = preset.name;
+      button.style.backgroundColor = preset.background;
+      button.setAttribute("aria-label", hhMessage(preset.name));
+      button.title = hhMessage(preset.name);
+      button.setAttribute("aria-pressed", String(colors.background === preset.background && colors.text === preset.text));
+      button.addEventListener("click", async () => {
+        try {
+          const response = await request({ type: "hh:colors", colors: { ...colors, ...preset } });
+          colors = response.colors; renderColors();
+        } catch { setStatus("error"); }
+      });
+      group.append(button);
     }
+    $("color-preview").style.backgroundColor = colors.background;
+    $("color-preview").style.color = colors.text;
+    $("color-preview").style.textShadow = colors.useShadow ? `0 1px 3px ${colors.shadow}` : "none";
   }
-}
-
-if (window.visualViewport) {
-  window.visualViewport.addEventListener("resize", handleViewportChange);
-}
+  async function apply(close = false) {
+    if (busy || !Number.isInteger(tabId)) return;
+    const currentRule = rule();
+    if ([currentRule.blurText, currentRule.highlightText].some(text => HH.terms(text, currentRule.caseSensitive, 101).length > HH.MAX_TERMS)) { setStatus("termLimit"); return; }
+    busy = true; $("apply").disabled = true; $("apply-close").disabled = true;
+    try {
+      await saveDraft();
+      const response = await request({ type: "hh:apply-rule", tabId, rule: rule() });
+      renderConfig(response.config);
+      const view = await request({ type: "hh:open", tabId });
+      renderStatus(view.status);
+      if (close) window.close();
+    } catch { setStatus("error"); }
+    finally { busy = false; $("apply").disabled = false; $("apply-close").disabled = false; }
+  }
+  $("rule-form").addEventListener("submit", event => { event.preventDefault(); apply(); });
+  $("apply-close").addEventListener("click", () => apply(true));
+  for (const id of ["blur-words", "highlight-words", "whole-words", "match-case", "remember-site"]) $(id).addEventListener("input", () => { saveDraft().catch(() => setStatus("error")); });
+  $("pause").addEventListener("click", async () => {
+    try { const result = await request({ type: "hh:pause", tabId }); renderConfig(result.config); const view = await request({ type: "hh:open", tabId }); renderStatus(view.status); } catch { setStatus("error"); }
+  });
+  $("reset").addEventListener("click", async () => {
+    try { const result = await request({ type: "hh:reset", tabId }); renderConfig(result.config); setStatus("removed"); } catch { setStatus("error"); }
+  });
+  $("custom-colors").addEventListener("click", async () => {
+    try { await saveDraft(); await api.tabs.create({ url: api.runtime.getURL(`options/color-options.html?tab=${tabId}`) }); window.close(); } catch { setStatus("error"); }
+  });
+  api.runtime.onMessage.addListener(message => {
+    if (message?.type === "hh:view-status" && message.tabId === tabId) renderStatus(message.status);
+    return false;
+  });
+  api.storage.onChanged.addListener((changes, area) => {
+    if (area === "local" && changes[HH.KEYS.prefs]) { colors = HH.normalizeColors(changes[HH.KEYS.prefs].newValue?.colors); renderColors(); }
+  });
+  function viewport() {
+    const height = window.visualViewport?.height || window.innerHeight;
+    document.documentElement.style.setProperty("--available-height", `${Math.max(160, Math.floor(height))}px`);
+    document.body.classList.toggle("editing", document.activeElement?.tagName === "TEXTAREA");
+  }
+  window.visualViewport?.addEventListener("resize", viewport);
+  document.addEventListener("focusin", viewport);
+  document.addEventListener("focusout", () => setTimeout(viewport, 0));
+  viewport();
+  async function load() {
+    try {
+      const [tab] = await api.tabs.query({ active: true, currentWindow: true });
+      if (!Number.isInteger(tab?.id)) throw new Error("no_tab");
+      tabId = tab.id;
+      const view = await request({ type: "hh:open", tabId });
+      const draft = view.draft;
+      $("blur-words").value = draft.blurText;
+      $("highlight-words").value = draft.highlightText;
+      $("whole-words").checked = draft.wholeWords;
+      $("match-case").checked = draft.caseSensitive;
+      $("remember-site").checked = draft.scope === "site";
+      colors = view.colors; renderColors(); renderConfig(view.config); renderStatus(view.status);
+      $("unavailable").hidden = view.available;
+      $("rule-fields").disabled = !view.available;
+      $("apply").disabled = !view.available;
+      $("apply-close").disabled = !view.available;
+      if (!view.available) { $("pause").disabled = true; $("reset").disabled = true; }
+    } catch { $("unavailable").hidden = false; setStatus("error"); }
+  }
+  load();
+})();

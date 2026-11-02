@@ -1,24 +1,131 @@
 {
-  "chromename": { "message": "隐藏与高亮" },
-  "description": { "message": "“隐藏与高亮”允许您隐藏或高亮网页上的任何文本节点，以便更方便地展示给他人。" },
-  "defaulttitle": { "message": "修改重要文本的可见性" },
-  "header": { "message": "“隐藏与高亮”扩展" },
-  "info1": { "message": "使用此扩展可模糊或高亮页面上的特定文本。启用文本修改以应用样式。" },
-  "info2": { "message": "此弹窗调用的网页文本将被修改。" },
-  "enable": { "message": "启用文本修改：" },
-  "selectmode": { "message": "选择模式：" },
-  "bluroption": { "message": "模糊" },
-  "highlightoption": { "message": "高亮" },
-  "placeholder": { "message": "请输入要更改的关键词" },
-  "info4": { "message": "要隐藏/高亮多个词，请在下方输入搜索词，使用分号分隔；例如：苹果;太阳;树" },
-  "info3": { "message": "您可以更改颜色。之后需要关闭设置页面并在所需页面重新打开此弹窗。" },
-  "selectcolortext": { "message": "选择文本颜色：" },
-  "selectcolorshadow": { "message": "选择阴影颜色：" },
-  "applyrule": { "message": "应用规则" },
-  "optionstitle": { "message": "颜色选项" },
-  "optionsheader": { "message": "选择颜色" },
-  "optionsinfo": { "message": "选择所需颜色，点击“保存”，关闭此页面，然后在所需页面重新打开弹窗（浏览器窗口右上角的此扩展图标）。" },
-  "textcolor": { "message": "文本颜色：" },
-  "shadowcolor": { "message": "阴影颜色：" },
-  "savebutton": { "message": "保存" }
+  "chromename": {
+    "message": "隐藏与高亮"
+  },
+  "defaulttitle": {
+    "message": "隐藏与高亮"
+  },
+  "description": {
+    "message": "模糊网页上的词语并突出显示重要文本，轻松准备截图、演示和阅读页面。"
+  },
+  "currentTab": {
+    "message": "当前标签页"
+  },
+  "blurLabel": {
+    "message": "模糊这些词语"
+  },
+  "highlightLabel": {
+    "message": "突出显示这些词语"
+  },
+  "termsHint": {
+    "message": "用 ; 或换行分隔词语或短语。"
+  },
+  "wholeWords": {
+    "message": "完整词语"
+  },
+  "matchCase": {
+    "message": "区分大小写"
+  },
+  "colorsLabel": {
+    "message": "颜色"
+  },
+  "customColors": {
+    "message": "自定义"
+  },
+  "previewLabel": {
+    "message": "预览"
+  },
+  "previewText": {
+    "message": "重要文本"
+  },
+  "rememberSite": {
+    "message": "记住此网站的规则"
+  },
+  "apply": {
+    "message": "应用"
+  },
+  "applyClose": {
+    "message": "应用并关闭"
+  },
+  "pause": {
+    "message": "暂停"
+  },
+  "resume": {
+    "message": "恢复"
+  },
+  "reset": {
+    "message": "移除效果"
+  },
+  "statusReady": {
+    "message": "输入词语，然后应用。"
+  },
+  "statusPaused": {
+    "message": "已在当前标签页暂停。"
+  },
+  "noMatches": {
+    "message": "此页面没有匹配项。"
+  },
+  "matchCounts": {
+    "message": "已模糊 $1 处 · 已突出显示 $2 处"
+  },
+  "unavailable": {
+    "message": "请打开或重新加载普通网页。浏览器内部页面和部分受保护网站无法使用。"
+  },
+  "error": {
+    "message": "无法保存更改，请重试。"
+  },
+  "removed": {
+    "message": "已移除效果，输入的词语已保留。"
+  },
+  "privacy": {
+    "message": "无需账户。规则保存在此浏览器中。"
+  },
+  "optionsTitle": {
+    "message": "自定义颜色"
+  },
+  "backgroundColor": {
+    "message": "突出显示背景色"
+  },
+  "textColor": {
+    "message": "文字颜色"
+  },
+  "shadowColor": {
+    "message": "阴影颜色"
+  },
+  "useShadow": {
+    "message": "添加文字阴影"
+  },
+  "saveColors": {
+    "message": "保存颜色"
+  },
+  "restoreColors": {
+    "message": "恢复默认设置"
+  },
+  "saved": {
+    "message": "颜色已保存。"
+  },
+  "returnTab": {
+    "message": "返回页面"
+  },
+  "limitReached": {
+    "message": "最多显示 5,000 个匹配项。"
+  },
+  "amber": {
+    "message": "琥珀色"
+  },
+  "mint": {
+    "message": "薄荷色"
+  },
+  "sky": {
+    "message": "天蓝色"
+  },
+  "rose": {
+    "message": "玫瑰色"
+  },
+  "lavender": {
+    "message": "薰衣草色"
+  },
+  "termLimit": {
+    "message": "每个列表最多使用 100 个词语或短语。"
+  }
 }

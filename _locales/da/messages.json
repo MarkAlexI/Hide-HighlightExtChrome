@@ -1,23 +1,131 @@
 {
-  "chromename": { "message": "Skjul & Fremhæv" },
-  "description": { "message": "\"Skjul & Fremhæv\" giver dig mulighed for at skjule eller fremhæve tekstnoder på websider for nem visning for andre." },
-  "defaulttitle": { "message": "Ændr synligheden af vigtig tekst" },
-  "header": { "message": "Skjul & Fremhæv Udvidelse" },
-  "info1": { "message": "Brug denne udvidelse til at sløre eller fremhæve specifik tekst på siden. Tillad tekstændring for at anvende stilarter." },
-  "info2": { "message": "Teksten på den webside, hvor denne pop-up er aktiveret, bliver ændret." },
-  "enable": { "message": "Aktiver tekstændring:" },
-  "selectmode": { "message": "Vælg tilstand:" },
-  "bluroption": { "message": "Sløring" },
-  "highlightoption": { "message": "Fremhævning" },
-  "placeholder": { "message": "Indtast søgeord til ændring" },
-  "info3": { "message": "Du kan ændre farverne. Derefter skal du lukke indstillingssiden og genåbne denne pop-up på den ønskede side." },
-  "selectcolortext": { "message": "Vælg tekstfarve:" },
-  "selectcolorshadow": { "message": "Vælg skyggefarve:" },
-  "applyrule": { "message": "Anvend regel" },
-  "optionstitle": { "message": "Farveindstillinger" },
-  "optionsheader": { "message": "Vælg farver" },
-  "optionsinfo": { "message": "Vælg de ønskede farver, tryk på \"Gem\", luk denne side og genåbn pop-up'en (ikonet for denne udvidelse øverst til højre i browseren) på den ønskede side." },
-  "textcolor": { "message": "Tekstfarve: " },
-  "shadowcolor": { "message": "Skyggefarve: " },
-  "savebutton": { "message": "Gem" }
+  "chromename": {
+    "message": "Skjul & Fremhæv"
+  },
+  "defaulttitle": {
+    "message": "Skjul & Fremhæv"
+  },
+  "description": {
+    "message": "Slør ord og fremhæv tekst på websider til skærmbilleder, præsentationer og læsning."
+  },
+  "currentTab": {
+    "message": "Denne fane"
+  },
+  "blurLabel": {
+    "message": "Slør disse ord"
+  },
+  "highlightLabel": {
+    "message": "Fremhæv disse ord"
+  },
+  "termsHint": {
+    "message": "Adskil ord eller udtryk med ; eller et linjeskift."
+  },
+  "wholeWords": {
+    "message": "Hele ord"
+  },
+  "matchCase": {
+    "message": "Store og små bogstaver"
+  },
+  "colorsLabel": {
+    "message": "Farver"
+  },
+  "customColors": {
+    "message": "Tilpas"
+  },
+  "previewLabel": {
+    "message": "Eksempel"
+  },
+  "previewText": {
+    "message": "Vigtig tekst"
+  },
+  "rememberSite": {
+    "message": "Husk på dette websted"
+  },
+  "apply": {
+    "message": "Anvend"
+  },
+  "applyClose": {
+    "message": "Anvend og luk"
+  },
+  "pause": {
+    "message": "Pause"
+  },
+  "resume": {
+    "message": "Fortsæt"
+  },
+  "reset": {
+    "message": "Fjern effekter"
+  },
+  "statusReady": {
+    "message": "Indtast ord, og anvend."
+  },
+  "statusPaused": {
+    "message": "Sat på pause i denne fane."
+  },
+  "noMatches": {
+    "message": "Ingen match på denne side."
+  },
+  "matchCounts": {
+    "message": "$1 slørede · $2 fremhævede"
+  },
+  "unavailable": {
+    "message": "Åbn eller genindlæs en almindelig webside. Browsersider og visse beskyttede websteder er ikke tilgængelige."
+  },
+  "error": {
+    "message": "Kunne ikke gemme. Prøv igen."
+  },
+  "removed": {
+    "message": "Effekter fjernet. Dine ord er bevaret."
+  },
+  "privacy": {
+    "message": "Ingen konto. Regler bliver i denne browser."
+  },
+  "optionsTitle": {
+    "message": "Tilpassede farver"
+  },
+  "backgroundColor": {
+    "message": "Fremhævningens baggrund"
+  },
+  "textColor": {
+    "message": "Tekstfarve"
+  },
+  "shadowColor": {
+    "message": "Skyggefarve"
+  },
+  "useShadow": {
+    "message": "Tilføj tekstskygge"
+  },
+  "saveColors": {
+    "message": "Gem farver"
+  },
+  "restoreColors": {
+    "message": "Gendan standarder"
+  },
+  "saved": {
+    "message": "Farver gemt."
+  },
+  "returnTab": {
+    "message": "Tilbage til siden"
+  },
+  "limitReached": {
+    "message": "Viser op til 5.000 match."
+  },
+  "amber": {
+    "message": "Rav"
+  },
+  "mint": {
+    "message": "Mint"
+  },
+  "sky": {
+    "message": "Himmelblå"
+  },
+  "rose": {
+    "message": "Rosa"
+  },
+  "lavender": {
+    "message": "Lavendel"
+  },
+  "termLimit": {
+    "message": "Brug op til 100 ord eller udtryk pr. liste."
+  }
 }

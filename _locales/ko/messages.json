@@ -1,24 +1,131 @@
 {
-  "chromename": { "message": "숨기기 및 강조하기" },
-  "description": { "message": "\"숨기기 및 강조하기\"는 웹 페이지에서 원하는 텍스트 노드를 숨기거나 강조하여 다른 사람에게 편리하게 보여줄 수 있도록 합니다." },
-  "defaulttitle": { "message": "중요한 텍스트의 가시성 수정" },
-  "header": { "message": "\"숨기기 및 강조하기\" 확장 프로그램" },
-  "info1": { "message": "이 확장을 사용하여 페이지의 특정 텍스트를 흐리게 하거나 강조 표시할 수 있습니다. 스타일을 적용하려면 텍스트 수정을 활성화하세요." },
-  "info2": { "message": "이 팝업이 호출된 웹 페이지의 텍스트가 수정됩니다." },
-  "enable": { "message": "텍스트 수정 활성화:" },
-  "selectmode": { "message": "모드 선택:" },
-  "bluroption": { "message": "흐리게" },
-  "highlightoption": { "message": "강조" },
-  "placeholder": { "message": "변경할 키워드를 입력하세요" },
-  "info4": { "message": "여러 개를 숨기기/강조하려면 아래 필드에 세미콜론으로 구분된 검색어를 입력하세요. 예: 사과;태양;나무" },
-  "info3": { "message": "색상을 변경할 수 있습니다. 변경 후에는 옵션 페이지를 닫고 원하는 페이지에서 이 팝업을 다시 열어야 합니다." },
-  "selectcolortext": { "message": "텍스트 색상 선택:" },
-  "selectcolorshadow": { "message": "그림자 색상 선택:" },
-  "applyrule": { "message": "규칙 적용" },
-  "optionstitle": { "message": "색상 옵션" },
-  "optionsheader": { "message": "색상 선택" },
-  "optionsinfo": { "message": "원하는 색상을 선택한 후 \"저장\"을 클릭하고 이 페이지를 닫으세요. 그런 다음, 원하는 페이지에서 이 팝업(브라우저 창 오른쪽 상단에 있는 이 확장의 아이콘)을 다시 여세요." },
-  "textcolor": { "message": "텍스트 색상:" },
-  "shadowcolor": { "message": "그림자 색상:" },
-  "savebutton": { "message": "저장" }
+  "chromename": {
+    "message": "숨기기 및 강조하기"
+  },
+  "defaulttitle": {
+    "message": "숨기기 및 강조하기"
+  },
+  "description": {
+    "message": "웹페이지의 단어를 흐리게 하고 중요한 텍스트를 강조하세요. 스크린샷, 프레젠테이션, 읽기에 유용합니다."
+  },
+  "currentTab": {
+    "message": "현재 탭"
+  },
+  "blurLabel": {
+    "message": "흐리게 할 단어"
+  },
+  "highlightLabel": {
+    "message": "강조할 단어"
+  },
+  "termsHint": {
+    "message": "단어나 구문은 ; 또는 줄바꿈으로 구분하세요."
+  },
+  "wholeWords": {
+    "message": "단어 전체"
+  },
+  "matchCase": {
+    "message": "대소문자 구분"
+  },
+  "colorsLabel": {
+    "message": "색상"
+  },
+  "customColors": {
+    "message": "직접 선택"
+  },
+  "previewLabel": {
+    "message": "미리보기"
+  },
+  "previewText": {
+    "message": "중요한 텍스트"
+  },
+  "rememberSite": {
+    "message": "이 사이트에서 기억"
+  },
+  "apply": {
+    "message": "적용"
+  },
+  "applyClose": {
+    "message": "적용 후 닫기"
+  },
+  "pause": {
+    "message": "일시 정지"
+  },
+  "resume": {
+    "message": "다시 시작"
+  },
+  "reset": {
+    "message": "효과 제거"
+  },
+  "statusReady": {
+    "message": "단어를 입력한 후 적용하세요."
+  },
+  "statusPaused": {
+    "message": "현재 탭에서 일시 정지됨."
+  },
+  "noMatches": {
+    "message": "이 페이지에 일치하는 내용이 없습니다."
+  },
+  "matchCounts": {
+    "message": "흐림 $1개 · 강조 $2개"
+  },
+  "unavailable": {
+    "message": "일반 웹페이지를 열거나 새로고침하세요. 브라우저 페이지와 일부 보호된 사이트에서는 사용할 수 없습니다."
+  },
+  "error": {
+    "message": "변경 사항을 저장하지 못했습니다. 다시 시도하세요."
+  },
+  "removed": {
+    "message": "효과를 제거했습니다. 입력한 단어는 유지됩니다."
+  },
+  "privacy": {
+    "message": "계정 불필요. 규칙은 이 브라우저에 저장됩니다."
+  },
+  "optionsTitle": {
+    "message": "사용자 지정 색상"
+  },
+  "backgroundColor": {
+    "message": "강조 배경색"
+  },
+  "textColor": {
+    "message": "글자색"
+  },
+  "shadowColor": {
+    "message": "그림자 색상"
+  },
+  "useShadow": {
+    "message": "텍스트 그림자 추가"
+  },
+  "saveColors": {
+    "message": "색상 저장"
+  },
+  "restoreColors": {
+    "message": "기본값 복원"
+  },
+  "saved": {
+    "message": "색상을 저장했습니다."
+  },
+  "returnTab": {
+    "message": "페이지로 돌아가기"
+  },
+  "limitReached": {
+    "message": "최대 5,000개의 일치 항목을 표시합니다."
+  },
+  "amber": {
+    "message": "호박색"
+  },
+  "mint": {
+    "message": "민트"
+  },
+  "sky": {
+    "message": "하늘색"
+  },
+  "rose": {
+    "message": "장미색"
+  },
+  "lavender": {
+    "message": "라벤더"
+  },
+  "termLimit": {
+    "message": "각 목록에 단어나 구문을 최대 100개까지 입력하세요."
+  }
 }

@@ -1,0 +1,9 @@
+const fs=require('fs');const path=require('path');const assert=require('node:assert/strict');const cp=require('node:child_process');
+const root=path.join(__dirname,'..');const manifest=JSON.parse(fs.readFileSync(path.join(root,'manifest.json'),'utf8'));
+assert.equal(manifest.version,'2.0.0');assert.deepEqual(manifest.permissions,['storage']);assert.deepEqual(manifest.content_scripts[0].matches,['<all_urls>']);
+const locales=fs.readdirSync(path.join(root,'_locales'));const base=JSON.parse(fs.readFileSync(path.join(root,'_locales/en/messages.json'),'utf8'));
+for(const locale of locales){const data=JSON.parse(fs.readFileSync(path.join(root,'_locales',locale,'messages.json'),'utf8'));assert.deepEqual(Object.keys(data).sort(),Object.keys(base).sort(),locale);assert.ok([...data.description.message].length<=132,locale+' summary length');for(const [key,item]of Object.entries(data))assert.ok(item.message.trim(),locale+': '+key);assert.ok(data.matchCounts.message.includes('$1')&&data.matchCounts.message.includes('$2'),locale+' count substitutions')}
+for(const file of ['scripts/shared.js','scripts/background.js','scripts/content.js','scripts/i18n.js','scripts/popup.js','options/color-options.js'])cp.execFileSync(process.execPath,['--check',path.join(root,file)]);
+for(const size of ['16','32','48','128','192'])assert.ok(fs.existsSync(path.join(root,manifest.icons[size])));
+if(manifest.browser_specific_settings){assert.equal(manifest.browser_specific_settings.gecko.id,'{07c5b3d8-58af-4557-88d5-51d19d185790}');assert.equal(manifest.browser_specific_settings.gecko_android.strict_min_version,'120.0');assert.deepEqual(manifest.background.scripts,['scripts/shared.js','scripts/background.js'])}else assert.equal(manifest.background.service_worker,'scripts/background.js');
+console.log('Verified manifest, runtime syntax, icons and '+locales.length+' complete locales.');

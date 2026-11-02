@@ -1,23 +1,131 @@
 {
-  "chromename": { "message": "Skrýt & Zvýraznit" },
-  "description": { "message": "\"Skrýt & Zvýraznit\" vám umožňuje skrýt nebo zvýraznit libovolné textové uzly na webových stránkách pro pohodlné zobrazení ostatním." },
-  "defaulttitle": { "message": "Upravte viditelnost důležitého textu" },
-  "header": { "message": "Rozšíření Skrýt & Zvýraznit" },
-  "info1": { "message": "Pomocí tohoto rozšíření můžete rozmazat nebo zvýraznit konkrétní text na stránce. Povolením úpravy textu aplikujete styly." },
-  "info2": { "message": "Text na webové stránce, kde je toto vyskakovací okno otevřeno, je změněn." },
-  "enable": { "message": "Povolit úpravu textu:" },
-  "selectmode": { "message": "Vyberte režim:" },
-  "bluroption": { "message": "Rozmazání" },
-  "highlightoption": { "message": "Zvýraznění" },
-  "placeholder": { "message": "Zadejte klíčové slovo k úpravě" },
-  "info3": { "message": "Můžete změnit barvy. Poté je nutné zavřít stránku s nastaveními a znovu otevřít toto vyskakovací okno na požadované stránce." },
-  "selectcolortext": { "message": "Vyberte barvu textu:" },
-  "selectcolorshadow": { "message": "Vyberte barvu stínu:" },
-  "applyrule": { "message": "Použít pravidlo" },
-  "optionstitle": { "message": "Možnosti barev" },
-  "optionsheader": { "message": "Vyberte barvy" },
-  "optionsinfo": { "message": "Vyberte požadované barvy, stiskněte \"Uložit\", zavřete tuto stránku a znovu otevřete vyskakovací okno (ikona tohoto doplňku v pravém horním rohu okna prohlížeče) na požadované stránce." },
-  "textcolor": { "message": "Barva textu: " },
-  "shadowcolor": { "message": "Barva stínu: " },
-  "savebutton": { "message": "Uložit" }
+  "chromename": {
+    "message": "Skrýt & Zvýraznit"
+  },
+  "defaulttitle": {
+    "message": "Skrýt & Zvýraznit"
+  },
+  "description": {
+    "message": "Rozmažte slova a zvýrazněte text na webových stránkách pro snímky obrazovky, prezentace a čtení."
+  },
+  "currentTab": {
+    "message": "Tato karta"
+  },
+  "blurLabel": {
+    "message": "Rozmazat tato slova"
+  },
+  "highlightLabel": {
+    "message": "Zvýraznit tato slova"
+  },
+  "termsHint": {
+    "message": "Slova nebo fráze oddělte znakem ; nebo novým řádkem."
+  },
+  "wholeWords": {
+    "message": "Celá slova"
+  },
+  "matchCase": {
+    "message": "Rozlišovat velikost"
+  },
+  "colorsLabel": {
+    "message": "Barvy"
+  },
+  "customColors": {
+    "message": "Vlastní"
+  },
+  "previewLabel": {
+    "message": "Náhled"
+  },
+  "previewText": {
+    "message": "Důležitý text"
+  },
+  "rememberSite": {
+    "message": "Zapamatovat pro tento web"
+  },
+  "apply": {
+    "message": "Použít"
+  },
+  "applyClose": {
+    "message": "Použít a zavřít"
+  },
+  "pause": {
+    "message": "Pozastavit"
+  },
+  "resume": {
+    "message": "Pokračovat"
+  },
+  "reset": {
+    "message": "Odstranit efekty"
+  },
+  "statusReady": {
+    "message": "Zadejte slova a použijte."
+  },
+  "statusPaused": {
+    "message": "Na této kartě pozastaveno."
+  },
+  "noMatches": {
+    "message": "Na této stránce nejsou shody."
+  },
+  "matchCounts": {
+    "message": "Rozmazáno: $1 · Zvýrazněno: $2"
+  },
+  "unavailable": {
+    "message": "Otevřete nebo obnovte běžnou webovou stránku. Stránky prohlížeče a některé chráněné weby nejsou dostupné."
+  },
+  "error": {
+    "message": "Změny nelze uložit. Zkuste to znovu."
+  },
+  "removed": {
+    "message": "Efekty odstraněny. Vaše slova zůstala uložena."
+  },
+  "privacy": {
+    "message": "Bez účtu. Pravidla zůstávají v tomto prohlížeči."
+  },
+  "optionsTitle": {
+    "message": "Vlastní barvy"
+  },
+  "backgroundColor": {
+    "message": "Pozadí zvýraznění"
+  },
+  "textColor": {
+    "message": "Barva textu"
+  },
+  "shadowColor": {
+    "message": "Barva stínu"
+  },
+  "useShadow": {
+    "message": "Přidat stín textu"
+  },
+  "saveColors": {
+    "message": "Uložit barvy"
+  },
+  "restoreColors": {
+    "message": "Obnovit výchozí"
+  },
+  "saved": {
+    "message": "Barvy uloženy."
+  },
+  "returnTab": {
+    "message": "Zpět na stránku"
+  },
+  "limitReached": {
+    "message": "Zobrazuje se až 5 000 shod."
+  },
+  "amber": {
+    "message": "Jantarová"
+  },
+  "mint": {
+    "message": "Mátová"
+  },
+  "sky": {
+    "message": "Nebeská"
+  },
+  "rose": {
+    "message": "Růžová"
+  },
+  "lavender": {
+    "message": "Levandulová"
+  },
+  "termLimit": {
+    "message": "Použijte nejvýše 100 slov nebo frází v každém seznamu."
+  }
 }

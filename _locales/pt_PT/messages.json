@@ -1,24 +1,131 @@
 {
-  "chromename": { "message": "Ocultar e Destacar" },
-  "description": { "message": "O \"Ocultar e Destacar\" permite-lhe ocultar ou destacar quaisquer nós de texto nas páginas web para uma exibição mais conveniente para outras pessoas." },
-  "defaulttitle": { "message": "Modificar a visibilidade do texto importante" },
-  "header": { "message": "Extensão Ocultar e Destacar" },
-  "info1": { "message": "Use esta extensão para desfocar ou destacar texto específico na página. Permita a modificação do texto para aplicar estilos." },
-  "info2": { "message": "O texto da página web onde este pop-up é chamado será modificado." },
-  "enable": { "message": "Ativar Modificação de Texto:" },
-  "selectmode": { "message": "Selecionar Modo:" },
-  "bluroption": { "message": "Desfocar" },
-  "highlightoption": { "message": "Destacar" },
-  "placeholder": { "message": "Introduza as palavras-chave para alterar" },
-  "info4": { "message": "Para ocultar/destacar múltiplas palavras, insira no campo abaixo palavras de pesquisa separadas por ponto e vírgula; por exemplo: maçã;sol;árvore" },
-  "info3": { "message": "Pode alterar as cores. Depois disso, feche a página de opções e reabra este pop-up na página desejada." },
-  "selectcolortext": { "message": "Selecionar cor do texto:" },
-  "selectcolorshadow": { "message": "Selecionar cor da sombra:" },
-  "applyrule": { "message": "Aplicar regra" },
-  "optionstitle": { "message": "Opções de Cores" },
-  "optionsheader": { "message": "Selecionar Cores" },
-  "optionsinfo": { "message": "Selecione as cores desejadas, pressione \"Guardar\", feche esta página e reabra o pop-up (ícone deste complemento no canto superior direito da janela do navegador) na página desejada." },
-  "textcolor": { "message": "Cor do Texto: " },
-  "shadowcolor": { "message": "Cor da Sombra: " },
-  "savebutton": { "message": "Guardar" }
+  "chromename": {
+    "message": "Ocultar e Destacar"
+  },
+  "defaulttitle": {
+    "message": "Ocultar e Destacar"
+  },
+  "description": {
+    "message": "Desfoque palavras e realce texto em páginas web para capturas de ecrã, apresentações e leitura."
+  },
+  "currentTab": {
+    "message": "Este separador"
+  },
+  "blurLabel": {
+    "message": "Palavras a desfocar"
+  },
+  "highlightLabel": {
+    "message": "Palavras a realçar"
+  },
+  "termsHint": {
+    "message": "Separe palavras ou expressões com ; ou uma nova linha."
+  },
+  "wholeWords": {
+    "message": "Palavras completas"
+  },
+  "matchCase": {
+    "message": "Distinguir maiúsculas"
+  },
+  "colorsLabel": {
+    "message": "Cores"
+  },
+  "customColors": {
+    "message": "Personalizar"
+  },
+  "previewLabel": {
+    "message": "Pré-visualização"
+  },
+  "previewText": {
+    "message": "Texto importante"
+  },
+  "rememberSite": {
+    "message": "Memorizar para este site"
+  },
+  "apply": {
+    "message": "Aplicar"
+  },
+  "applyClose": {
+    "message": "Aplicar e fechar"
+  },
+  "pause": {
+    "message": "Pausar"
+  },
+  "resume": {
+    "message": "Retomar"
+  },
+  "reset": {
+    "message": "Remover efeitos"
+  },
+  "statusReady": {
+    "message": "Introduza palavras e aplique."
+  },
+  "statusPaused": {
+    "message": "Em pausa neste separador."
+  },
+  "noMatches": {
+    "message": "Sem correspondências nesta página."
+  },
+  "matchCounts": {
+    "message": "$1 desfocadas · $2 realçadas"
+  },
+  "unavailable": {
+    "message": "Abra ou recarregue uma página normal. As páginas do navegador e alguns sites protegidos estão indisponíveis."
+  },
+  "error": {
+    "message": "Não foi possível guardar. Tente novamente."
+  },
+  "removed": {
+    "message": "Efeitos removidos. As suas palavras foram mantidas."
+  },
+  "privacy": {
+    "message": "Sem conta. As regras ficam neste navegador."
+  },
+  "optionsTitle": {
+    "message": "Cores personalizadas"
+  },
+  "backgroundColor": {
+    "message": "Fundo do realce"
+  },
+  "textColor": {
+    "message": "Cor do texto"
+  },
+  "shadowColor": {
+    "message": "Cor da sombra"
+  },
+  "useShadow": {
+    "message": "Adicionar sombra ao texto"
+  },
+  "saveColors": {
+    "message": "Guardar cores"
+  },
+  "restoreColors": {
+    "message": "Repor predefinições"
+  },
+  "saved": {
+    "message": "Cores guardadas."
+  },
+  "returnTab": {
+    "message": "Voltar à página"
+  },
+  "limitReached": {
+    "message": "São apresentadas até 5 000 correspondências."
+  },
+  "amber": {
+    "message": "Âmbar"
+  },
+  "mint": {
+    "message": "Menta"
+  },
+  "sky": {
+    "message": "Azul-celeste"
+  },
+  "rose": {
+    "message": "Rosa"
+  },
+  "lavender": {
+    "message": "Lavanda"
+  },
+  "termLimit": {
+    "message": "Use até 100 palavras ou expressões em cada lista."
+  }
 }

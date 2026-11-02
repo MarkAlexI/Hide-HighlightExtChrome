@@ -1,25 +1,131 @@
 {
-  "chromename": { "message": "Verbergen en Markeren" },
-  "description": { "message": "\"Verbergen en Markeren\" stelt u in staat om willekeurige tekstknooppunten op webpagina's te verbergen of te markeren, zodat ze gemakkelijk aan anderen kunnen worden getoond." },
-  "defaulttitle": { "message": "Pas de zichtbaarheid van belangrijke tekst aan" },
-  "header": { "message": "Extensie \"Verbergen en Markeren\"" },
-  "info1": { "message": "Gebruik deze extensie om specifieke tekst op de pagina te vervagen of te markeren. Schakel tekstwijziging in om stijlen toe te passen." },
-  "info2": { "message": "De tekst van de webpagina waarop dit pop-upvenster is geopend, wordt aangepast." },
-  "enable": { "message": "Tekstwijziging inschakelen:" },
-  "selectmode": { "message": "Selecteer modus:" },
-  "bluroption": { "message": "Vervagen" },
-  "highlightoption": { "message": "Markeren" },
-  "placeholder": { "message": "Voer trefwoorden in om te wijzigen" },
-  "info4": { "message": "Voor meervoudig verbergen/markeren voert u zoekwoorden in het onderstaande veld in, gescheiden door puntkomma's; bijvoorbeeld: appel;zon;boom" },
-  "info3": { "message": "U kunt de kleuren wijzigen. Daarna moet u de optiepagina sluiten en dit pop-upvenster opnieuw openen op de gewenste pagina." },
-  "selectcolortext": { "message": "Kies de tekstkleur:" },
-  "selectcolorshadow": { "message": "Kies de schaduwkleur:" },
-  "applyrule": { "message": "Regel toepassen" },
-  "optionstitle": { "message": "Kleuropties" },
-  "optionsheader": { "message": "Kleuren selecteren" },
-  "optionsinfo": { "message": "Selecteer de gewenste kleuren, druk op \"Opslaan\", sluit deze pagina en open het pop-upvenster opnieuw (het pictogram van deze extensie rechtsboven in het browservenster) op de gewenste pagina." },
-  "textcolor": { "message": "Tekstkleur: " },
-  "shadowcolor": { "message": "Schaduwkleur: " },
-  "savebutton": { "message": "Opslaan" },
-  "easteregg": { "message": "Gebruiktips:\n• Om naar een exacte zin te zoeken, voer woorden met spaties in (bijv. appel taart).\n• Om een enkel woord of een deel ervan te vinden, voer gewoon dat fragment in (bijv. app).\n• Om meerdere woorden of fragmenten afzonderlijk te controleren, gebruik puntkomma’s (;) om ze te scheiden (bijv. app;taart;bes)." }
+  "chromename": {
+    "message": "Verbergen en Markeren"
+  },
+  "defaulttitle": {
+    "message": "Verbergen en Markeren"
+  },
+  "description": {
+    "message": "Vervaag woorden en markeer tekst op webpagina’s voor screenshots, presentaties en prettig lezen."
+  },
+  "currentTab": {
+    "message": "Dit tabblad"
+  },
+  "blurLabel": {
+    "message": "Deze woorden vervagen"
+  },
+  "highlightLabel": {
+    "message": "Deze woorden markeren"
+  },
+  "termsHint": {
+    "message": "Scheid woorden of zinnen met ; of een nieuwe regel."
+  },
+  "wholeWords": {
+    "message": "Hele woorden"
+  },
+  "matchCase": {
+    "message": "Hoofdlettergevoelig"
+  },
+  "colorsLabel": {
+    "message": "Kleuren"
+  },
+  "customColors": {
+    "message": "Aangepast"
+  },
+  "previewLabel": {
+    "message": "Voorbeeld"
+  },
+  "previewText": {
+    "message": "Belangrijke tekst"
+  },
+  "rememberSite": {
+    "message": "Onthouden voor deze site"
+  },
+  "apply": {
+    "message": "Toepassen"
+  },
+  "applyClose": {
+    "message": "Toepassen en sluiten"
+  },
+  "pause": {
+    "message": "Pauzeren"
+  },
+  "resume": {
+    "message": "Hervatten"
+  },
+  "reset": {
+    "message": "Effecten verwijderen"
+  },
+  "statusReady": {
+    "message": "Voer woorden in en pas toe."
+  },
+  "statusPaused": {
+    "message": "Gepauzeerd op dit tabblad."
+  },
+  "noMatches": {
+    "message": "Geen overeenkomsten op deze pagina."
+  },
+  "matchCounts": {
+    "message": "$1 vervaagd · $2 gemarkeerd"
+  },
+  "unavailable": {
+    "message": "Open of herlaad een gewone webpagina. Browserpagina’s en sommige beveiligde sites zijn niet beschikbaar."
+  },
+  "error": {
+    "message": "Opslaan mislukt. Probeer het opnieuw."
+  },
+  "removed": {
+    "message": "Effecten verwijderd. Je woorden blijven bewaard."
+  },
+  "privacy": {
+    "message": "Geen account. Regels blijven in deze browser."
+  },
+  "optionsTitle": {
+    "message": "Aangepaste kleuren"
+  },
+  "backgroundColor": {
+    "message": "Markeringsachtergrond"
+  },
+  "textColor": {
+    "message": "Tekstkleur"
+  },
+  "shadowColor": {
+    "message": "Schaduwkleur"
+  },
+  "useShadow": {
+    "message": "Tekstschaduw toevoegen"
+  },
+  "saveColors": {
+    "message": "Kleuren opslaan"
+  },
+  "restoreColors": {
+    "message": "Standaard herstellen"
+  },
+  "saved": {
+    "message": "Kleuren opgeslagen."
+  },
+  "returnTab": {
+    "message": "Terug naar pagina"
+  },
+  "limitReached": {
+    "message": "Maximaal 5.000 overeenkomsten weergegeven."
+  },
+  "amber": {
+    "message": "Amber"
+  },
+  "mint": {
+    "message": "Mint"
+  },
+  "sky": {
+    "message": "Hemelsblauw"
+  },
+  "rose": {
+    "message": "Roze"
+  },
+  "lavender": {
+    "message": "Lavendel"
+  },
+  "termLimit": {
+    "message": "Gebruik maximaal 100 woorden of zinnen per lijst."
+  }
 }

@@ -1,24 +1,131 @@
 {
-  "chromename": { "message": "Ausblenden & Hervorheben" },
-  "description": { "message": "\"Ausblenden & Hervorheben\" ermöglicht es, beliebige Textknoten auf Webseiten auszublenden oder hervorzuheben, um sie anderen Personen besser anzuzeigen." },
-  "defaulttitle": { "message": "Sichtbarkeit wichtiger Texte ändern" },
-  "header": { "message": "Erweiterung \"Ausblenden & Hervorheben\"" },
-  "info1": { "message": "Verwenden Sie diese Erweiterung, um bestimmten Text auf der Seite zu verwischen oder hervorzuheben. Aktivieren Sie die Textänderung, um Stile anzuwenden." },
-  "info2": { "message": "Der Text der Webseite, auf der dieses Popup geöffnet wurde, wird verändert." },
-  "enable": { "message": "Textänderung aktivieren:" },
-  "selectmode": { "message": "Modus auswählen:" },
-  "bluroption": { "message": "Verwischen" },
-  "highlightoption": { "message": "Hervorheben" },
-  "placeholder": { "message": "Geben Sie Schlüsselwörter zum Ändern ein" },
-  "info4": { "message": "Für mehrfaches Ausblenden/Hervorheben geben Sie unten Suchwörter ein, getrennt durch Semikolons; zum Beispiel: apfel;sonne;baum" },
-  "info3": { "message": "Sie können die Farben ändern. Danach müssen Sie die Optionsseite schließen und dieses Popup auf der gewünschten Seite erneut öffnen." },
-  "selectcolortext": { "message": "Farbe des Textes auswählen:" },
-  "selectcolorshadow": { "message": "Farbe des Schattens auswählen:" },
-  "applyrule": { "message": "Regel anwenden" },
-  "optionstitle": { "message": "Farboptionen" },
-  "optionsheader": { "message": "Farben auswählen" },
-  "optionsinfo": { "message": "Wählen Sie die gewünschten Farben, klicken Sie auf \"Speichern\", schließen Sie diese Seite und öffnen Sie das Popup (Symbol dieser Erweiterung oben rechts im Browserfenster) auf der gewünschten Seite erneut." },
-  "textcolor": { "message": "Textfarbe: " },
-  "shadowcolor": { "message": "Schattenfarbe: " },
-  "savebutton": { "message": "Speichern" }
+  "chromename": {
+    "message": "Ausblenden & Hervorheben"
+  },
+  "defaulttitle": {
+    "message": "Ausblenden & Hervorheben"
+  },
+  "description": {
+    "message": "Wörter auf Webseiten weichzeichnen und Text hervorheben. Für Screenshots, Präsentationen und konzentriertes Lesen."
+  },
+  "currentTab": {
+    "message": "Dieser Tab"
+  },
+  "blurLabel": {
+    "message": "Diese Wörter weichzeichnen"
+  },
+  "highlightLabel": {
+    "message": "Diese Wörter hervorheben"
+  },
+  "termsHint": {
+    "message": "Wörter oder Ausdrücke mit ; oder einem Zeilenumbruch trennen."
+  },
+  "wholeWords": {
+    "message": "Ganze Wörter"
+  },
+  "matchCase": {
+    "message": "Groß-/Kleinschreibung"
+  },
+  "colorsLabel": {
+    "message": "Farben"
+  },
+  "customColors": {
+    "message": "Eigene"
+  },
+  "previewLabel": {
+    "message": "Vorschau"
+  },
+  "previewText": {
+    "message": "Wichtiger Text"
+  },
+  "rememberSite": {
+    "message": "Für diese Website merken"
+  },
+  "apply": {
+    "message": "Anwenden"
+  },
+  "applyClose": {
+    "message": "Anwenden & schließen"
+  },
+  "pause": {
+    "message": "Pausieren"
+  },
+  "resume": {
+    "message": "Fortsetzen"
+  },
+  "reset": {
+    "message": "Effekte entfernen"
+  },
+  "statusReady": {
+    "message": "Wörter eingeben und anwenden."
+  },
+  "statusPaused": {
+    "message": "In diesem Tab pausiert."
+  },
+  "noMatches": {
+    "message": "Keine Treffer auf dieser Seite."
+  },
+  "matchCounts": {
+    "message": "$1 weichgezeichnet · $2 hervorgehoben"
+  },
+  "unavailable": {
+    "message": "Eine normale Webseite öffnen oder neu laden. Browserseiten und einige geschützte Websites sind nicht verfügbar."
+  },
+  "error": {
+    "message": "Änderungen konnten nicht gespeichert werden. Erneut versuchen."
+  },
+  "removed": {
+    "message": "Effekte entfernt. Ihre Wörter bleiben gespeichert."
+  },
+  "privacy": {
+    "message": "Ohne Konto. Regeln bleiben in diesem Browser."
+  },
+  "optionsTitle": {
+    "message": "Eigene Farben"
+  },
+  "backgroundColor": {
+    "message": "Hintergrund der Hervorhebung"
+  },
+  "textColor": {
+    "message": "Textfarbe"
+  },
+  "shadowColor": {
+    "message": "Schattenfarbe"
+  },
+  "useShadow": {
+    "message": "Textschatten hinzufügen"
+  },
+  "saveColors": {
+    "message": "Farben speichern"
+  },
+  "restoreColors": {
+    "message": "Standardfarben"
+  },
+  "saved": {
+    "message": "Farben gespeichert."
+  },
+  "returnTab": {
+    "message": "Zur Seite zurück"
+  },
+  "limitReached": {
+    "message": "Bis zu 5.000 Treffer werden angezeigt."
+  },
+  "amber": {
+    "message": "Bernstein"
+  },
+  "mint": {
+    "message": "Minze"
+  },
+  "sky": {
+    "message": "Himmelblau"
+  },
+  "rose": {
+    "message": "Rosa"
+  },
+  "lavender": {
+    "message": "Lavendel"
+  },
+  "termLimit": {
+    "message": "Bis zu 100 Wörter oder Ausdrücke pro Liste."
+  }
 }

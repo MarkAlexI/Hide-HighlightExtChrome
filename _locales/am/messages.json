@@ -1,23 +1,131 @@
 {
-  "chromename": { "message": "ሰይፍ & ማስተላለፊያ" },
-  "description": { "message": "«ሰይፍ & ማስተላለፊያ» በድረገጽ ላይ ያሉ የጽሑፍ ቁራጭዎችን ማሰወል ወይም ማብራራት የሚያስችል እና ለሌሎች ተገልጋይ የሚያደርገው ቅርብ ተጨማሪ ነው።" },
-  "defaulttitle": { "message": "የጽሑፉን ግልጽነት ይለዋውጡ" },
-  "header": { "message": "ሰይፍ & ማስተላለፊያ ተጨማሪ" },
-  "info1": { "message": "ይህን ተጨማሪ ለማጽደቅ ወይም ለማብራራት የሚሆኑ የጽሑፍ ክፍሎችን ይጠቀሙ። ቅድሚያ ማሻሻያን እንዲተገበር የጽሑፍ ማሻሻያን ያንቁ።" },
-  "info2": { "message": "ይህ ፖፑፕ በሚጠራበት ድረገጽ ላይ የሚገኘው ጽሑፍ ተሻሻላል።" },
-  "enable": { "message": "የጽሑፍ ማሻሻያን ያንቁ፡-" },
-  "selectmode": { "message": "ዘዴን ይምረጡ፡-" },
-  "bluroption": { "message": "ማጽደቅ" },
-  "highlightoption": { "message": "ማብራራት" },
-  "placeholder": { "message": "ለማሻሻል የሚፈልጉትን ቃል ያስገቡ" },
-  "info3": { "message": "ቀለሞቹን ማሻሻል ይችላሉ። ከዛ በኋላ የምርጫውን ገጽ ይዝጉ እና ይህን ፖፑፕ በፈለጉት ገፅ ላይ እንደገና ይክፈቱ።" },
-  "selectcolortext": { "message": "የጽሑፍ ቀለም ይምረጡ፡-" },
-  "selectcolorshadow": { "message": "የጥላ ቀለም ይምረጡ፡-" },
-  "applyrule": { "message": "ደንቡን ይተግብሩ" },
-  "optionstitle": { "message": "የቀለም ምርጫዎች" },
-  "optionsheader": { "message": "ቀለሞችን ይምረጡ" },
-  "optionsinfo": { "message": "ፈለጉትን ቀለሞች ይምረጡ፣ \"ማስቀመጥ\" ይጫኑ፣ ይህን ገጽ ይዝጉ፣ እና በፈለጉት ድረገጽ ላይ የተጨማሪውን ምልክት ይክፈቱ።" },
-  "textcolor": { "message": "የጽሑፍ ቀለም፡-" },
-  "shadowcolor": { "message": "የጥላ ቀለም፡-" },
-  "savebutton": { "message": "ማስቀመጥ" }
+  "chromename": {
+    "message": "ሰይፍ & ማስተላለፊያ"
+  },
+  "defaulttitle": {
+    "message": "ሰይፍ & ማስተላለፊያ"
+  },
+  "description": {
+    "message": "ለስክሪንሾት፣ ለአቀራረብና ለንባብ በድረ ገጾች ላይ ቃላትን አደብዝዝና አስፈላጊ ጽሑፍን አድምቅ።"
+  },
+  "currentTab": {
+    "message": "ይህ ትር"
+  },
+  "blurLabel": {
+    "message": "እነዚህን ቃላት አደብዝዝ"
+  },
+  "highlightLabel": {
+    "message": "እነዚህን ቃላት አድምቅ"
+  },
+  "termsHint": {
+    "message": "ቃላትን ወይም ሐረጎችን በ ; ወይም በአዲስ መስመር ለይ።"
+  },
+  "wholeWords": {
+    "message": "ሙሉ ቃላት"
+  },
+  "matchCase": {
+    "message": "የፊደል መጠን ይለይ"
+  },
+  "colorsLabel": {
+    "message": "ቀለሞች"
+  },
+  "customColors": {
+    "message": "ብጁ"
+  },
+  "previewLabel": {
+    "message": "ቅድመ እይታ"
+  },
+  "previewText": {
+    "message": "አስፈላጊ ጽሑፍ"
+  },
+  "rememberSite": {
+    "message": "ለዚህ ጣቢያ አስታውስ"
+  },
+  "apply": {
+    "message": "ተግብር"
+  },
+  "applyClose": {
+    "message": "ተግብርና ዝጋ"
+  },
+  "pause": {
+    "message": "ለጊዜው አቁም"
+  },
+  "resume": {
+    "message": "ቀጥል"
+  },
+  "reset": {
+    "message": "ተፅዕኖዎችን አስወግድ"
+  },
+  "statusReady": {
+    "message": "ቃላትን አስገባና ተግብር።"
+  },
+  "statusPaused": {
+    "message": "በዚህ ትር ለጊዜው ቆሟል።"
+  },
+  "noMatches": {
+    "message": "በዚህ ገጽ ላይ ተዛማጅ የለም።"
+  },
+  "matchCounts": {
+    "message": "$1 ደብዝዟል · $2 ደምቋል"
+  },
+  "unavailable": {
+    "message": "መደበኛ ድረ ገጽ ክፈት ወይም እንደገና ጫን። የአሳሽ ገጾችና አንዳንድ የተጠበቁ ጣቢያዎች አይደገፉም።"
+  },
+  "error": {
+    "message": "ለውጦቹን ማስቀመጥ አልተቻለም። እንደገና ሞክር።"
+  },
+  "removed": {
+    "message": "ተፅዕኖዎቹ ተወግደዋል። ቃላትህ ተቀምጠዋል።"
+  },
+  "privacy": {
+    "message": "መለያ አያስፈልግም። ደንቦች በዚህ አሳሽ ውስጥ ይቀመጣሉ።"
+  },
+  "optionsTitle": {
+    "message": "ብጁ ቀለሞች"
+  },
+  "backgroundColor": {
+    "message": "የማድመቂያ ዳራ"
+  },
+  "textColor": {
+    "message": "የጽሑፍ ቀለም"
+  },
+  "shadowColor": {
+    "message": "የጥላ ቀለም"
+  },
+  "useShadow": {
+    "message": "የጽሑፍ ጥላ ጨምር"
+  },
+  "saveColors": {
+    "message": "ቀለሞችን አስቀምጥ"
+  },
+  "restoreColors": {
+    "message": "ነባሪውን መልስ"
+  },
+  "saved": {
+    "message": "ቀለሞች ተቀምጠዋል።"
+  },
+  "returnTab": {
+    "message": "ወደ ገጹ ተመለስ"
+  },
+  "limitReached": {
+    "message": "እስከ 5,000 ተዛማጆች ይታያሉ።"
+  },
+  "amber": {
+    "message": "አምበር"
+  },
+  "mint": {
+    "message": "ሚንት"
+  },
+  "sky": {
+    "message": "ሰማያዊ"
+  },
+  "rose": {
+    "message": "ሮዝ"
+  },
+  "lavender": {
+    "message": "ላቬንደር"
+  },
+  "termLimit": {
+    "message": "በእያንዳንዱ ዝርዝር እስከ 100 ቃላት ወይም ሐረጎች ተጠቀም።"
+  }
 }

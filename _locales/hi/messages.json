@@ -1,23 +1,131 @@
 {
-  "chromename": { "message": "छिपाएं और हाइलाइट करें" },
-  "description": { "message": "\"छिपाएं और हाइलाइट करें\" आपको वेबपेज पर किसी भी टेक्स्ट नोड को छिपाने या हाइलाइट करने की अनुमति देता है ताकि इसे अन्य लोगों को आसानी से दिखाया जा सके।" },
-  "defaulttitle": { "message": "महत्वपूर्ण टेक्स्ट की दृश्यता बदलें" },
-  "header": { "message": "छिपाएं और हाइलाइट करें एक्सटेंशन" },
-  "info1": { "message": "इस एक्सटेंशन का उपयोग पेज पर विशिष्ट टेक्स्ट को धुंधला या हाइलाइट करने के लिए करें। स्टाइल लागू करने के लिए टेक्स्ट संशोधन सक्षम करें।" },
-  "info2": { "message": "जिस वेबपेज पर यह पॉपअप खोला गया है, उसका टेक्स्ट संशोधित किया जाएगा।" },
-  "enable": { "message": "टेक्स्ट संशोधन सक्षम करें:" },
-  "selectmode": { "message": "मोड चुनें:" },
-  "bluroption": { "message": "धुंधला करें" },
-  "highlightoption": { "message": "हाइलाइट करें" },
-  "placeholder": { "message": "संशोधित करने के लिए कीवर्ड दर्ज करें" },
-  "info3": { "message": "आप रंग बदल सकते हैं। इसके बाद, आपको विकल्प पृष्ठ को बंद करना होगा और इच्छित पृष्ठ पर इस पॉपअप को फिर से खोलना होगा।" },
-  "selectcolortext": { "message": "टेक्स्ट का रंग चुनें:" },
-  "selectcolorshadow": { "message": "छाया का रंग चुनें:" },
-  "applyrule": { "message": "नियम लागू करें" },
-  "optionstitle": { "message": "रंग विकल्प" },
-  "optionsheader": { "message": "रंग चुनें" },
-  "optionsinfo": { "message": "वांछित रंग चुनें, \"सहेजें\" पर क्लिक करें, इस पृष्ठ को बंद करें, और इच्छित पृष्ठ पर पॉपअप (ब्राउज़र विंडो के ऊपर दाईं ओर इस एक्सटेंशन का आइकन) फिर से खोलें।" },
-  "textcolor": { "message": "टेक्स्ट का रंग:" },
-  "shadowcolor": { "message": "छाया का रंग:" },
-  "savebutton": { "message": "सहेजें" }
+  "chromename": {
+    "message": "छिपाएं और हाइलाइट करें"
+  },
+  "defaulttitle": {
+    "message": "छिपाएं और हाइलाइट करें"
+  },
+  "description": {
+    "message": "वेबपेज पर शब्द धुंधले करें और जरूरी पाठ हाइलाइट करें। स्क्रीनशॉट, प्रस्तुतियों और पढ़ने के लिए।"
+  },
+  "currentTab": {
+    "message": "यह टैब"
+  },
+  "blurLabel": {
+    "message": "इन शब्दों को धुंधला करें"
+  },
+  "highlightLabel": {
+    "message": "इन शब्दों को हाइलाइट करें"
+  },
+  "termsHint": {
+    "message": "शब्दों या वाक्यांशों को ; या नई पंक्ति से अलग करें।"
+  },
+  "wholeWords": {
+    "message": "पूरे शब्द"
+  },
+  "matchCase": {
+    "message": "बड़े-छोटे अक्षर मिलाएँ"
+  },
+  "colorsLabel": {
+    "message": "रंग"
+  },
+  "customColors": {
+    "message": "कस्टम"
+  },
+  "previewLabel": {
+    "message": "पूर्वावलोकन"
+  },
+  "previewText": {
+    "message": "महत्वपूर्ण पाठ"
+  },
+  "rememberSite": {
+    "message": "इस साइट के लिए याद रखें"
+  },
+  "apply": {
+    "message": "लागू करें"
+  },
+  "applyClose": {
+    "message": "लागू करें और बंद करें"
+  },
+  "pause": {
+    "message": "रोकें"
+  },
+  "resume": {
+    "message": "फिर शुरू करें"
+  },
+  "reset": {
+    "message": "प्रभाव हटाएँ"
+  },
+  "statusReady": {
+    "message": "शब्द दर्ज करें, फिर लागू करें।"
+  },
+  "statusPaused": {
+    "message": "इस टैब में रुका हुआ है।"
+  },
+  "noMatches": {
+    "message": "इस पेज पर कोई मिलान नहीं है।"
+  },
+  "matchCounts": {
+    "message": "$1 धुंधले · $2 हाइलाइट"
+  },
+  "unavailable": {
+    "message": "सामान्य वेबपेज खोलें या फिर लोड करें। ब्राउज़र पेज और कुछ सुरक्षित साइटें उपलब्ध नहीं हैं।"
+  },
+  "error": {
+    "message": "बदलाव सेव नहीं हुए। फिर कोशिश करें।"
+  },
+  "removed": {
+    "message": "प्रभाव हटा दिए गए। आपके शब्द रखे गए हैं।"
+  },
+  "privacy": {
+    "message": "खाते की जरूरत नहीं। नियम इसी ब्राउज़र में रहते हैं।"
+  },
+  "optionsTitle": {
+    "message": "कस्टम रंग"
+  },
+  "backgroundColor": {
+    "message": "हाइलाइट की पृष्ठभूमि"
+  },
+  "textColor": {
+    "message": "पाठ का रंग"
+  },
+  "shadowColor": {
+    "message": "छाया का रंग"
+  },
+  "useShadow": {
+    "message": "पाठ में छाया जोड़ें"
+  },
+  "saveColors": {
+    "message": "रंग सेव करें"
+  },
+  "restoreColors": {
+    "message": "डिफ़ॉल्ट बहाल करें"
+  },
+  "saved": {
+    "message": "रंग सेव हो गए।"
+  },
+  "returnTab": {
+    "message": "पेज पर लौटें"
+  },
+  "limitReached": {
+    "message": "अधिकतम 5,000 मिलान दिखाए जा रहे हैं।"
+  },
+  "amber": {
+    "message": "अंबर"
+  },
+  "mint": {
+    "message": "मिंट"
+  },
+  "sky": {
+    "message": "आसमानी"
+  },
+  "rose": {
+    "message": "गुलाबी"
+  },
+  "lavender": {
+    "message": "लैवेंडर"
+  },
+  "termLimit": {
+    "message": "हर सूची में अधिकतम 100 शब्द या वाक्यांश रखें।"
+  }
 }

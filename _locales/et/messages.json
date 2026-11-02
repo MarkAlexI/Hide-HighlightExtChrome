@@ -1,23 +1,131 @@
 {
-  "chromename": { "message": "Peida ja Tõsta Esile" },
-  "description": { "message": "\"Peida ja Tõsta Esile\" võimaldab peita või esile tõsta mis tahes tekstisõlmi veebilehtedel, et sisu oleks mugavamalt teistele nähtav." },
-  "defaulttitle": { "message": "Muuda olulise teksti nähtavust" },
-  "header": { "message": "Peida ja Tõsta Esile Laiendus" },
-  "info1": { "message": "Kasuta seda laiendust teksti hägustamiseks või esiletõstmiseks lehel. Luba tekstimuudatused, et stiilid rakenduksid." },
-  "info2": { "message": "Veebilehe tekst, millel see hüpik avati, on muudetud." },
-  "enable": { "message": "Luba tekstimuudatused:" },
-  "selectmode": { "message": "Vali režiim:" },
-  "bluroption": { "message": "Hägusta" },
-  "highlightoption": { "message": "Tõsta esile" },
-  "placeholder": { "message": "Sisesta märksõna muutmiseks" },
-  "info3": { "message": "Saad värve muuta. Seejärel sule valikute leht ja ava see hüpik soovitud lehel uuesti." },
-  "selectcolortext": { "message": "Vali teksti värv:" },
-  "selectcolorshadow": { "message": "Vali varju värv:" },
-  "applyrule": { "message": "Rakenda reegel" },
-  "optionstitle": { "message": "Värvivalikud" },
-  "optionsheader": { "message": "Vali värvid" },
-  "optionsinfo": { "message": "Vali soovitud värvid, vajuta \"Salvesta\", sule see leht ja ava hüpik (selle laienduse ikoon brauseriakna paremas ülanurgas) soovitud lehel uuesti." },
-  "textcolor": { "message": "Teksti värv: " },
-  "shadowcolor": { "message": "Varju värv: " },
-  "savebutton": { "message": "Salvesta" }
+  "chromename": {
+    "message": "Peida ja Tõsta Esile"
+  },
+  "defaulttitle": {
+    "message": "Peida ja Tõsta Esile"
+  },
+  "description": {
+    "message": "Hägusta sõnu ja tõsta teksti esile veebilehtedel kuvatõmmiste, esitluste ja lugemise jaoks."
+  },
+  "currentTab": {
+    "message": "See vahekaart"
+  },
+  "blurLabel": {
+    "message": "Hägusta need sõnad"
+  },
+  "highlightLabel": {
+    "message": "Tõsta need sõnad esile"
+  },
+  "termsHint": {
+    "message": "Eralda sõnad või fraasid märgiga ; või reavahetusega."
+  },
+  "wholeWords": {
+    "message": "Terved sõnad"
+  },
+  "matchCase": {
+    "message": "Tõstutundlik"
+  },
+  "colorsLabel": {
+    "message": "Värvid"
+  },
+  "customColors": {
+    "message": "Kohandatud"
+  },
+  "previewLabel": {
+    "message": "Eelvaade"
+  },
+  "previewText": {
+    "message": "Oluline tekst"
+  },
+  "rememberSite": {
+    "message": "Jäta selle saidi jaoks meelde"
+  },
+  "apply": {
+    "message": "Rakenda"
+  },
+  "applyClose": {
+    "message": "Rakenda ja sulge"
+  },
+  "pause": {
+    "message": "Peata"
+  },
+  "resume": {
+    "message": "Jätka"
+  },
+  "reset": {
+    "message": "Eemalda efektid"
+  },
+  "statusReady": {
+    "message": "Sisesta sõnad ja rakenda."
+  },
+  "statusPaused": {
+    "message": "Sellel vahekaardil peatatud."
+  },
+  "noMatches": {
+    "message": "Sellel lehel pole vasteid."
+  },
+  "matchCounts": {
+    "message": "$1 hägustatud · $2 esile tõstetud"
+  },
+  "unavailable": {
+    "message": "Ava või laadi uuesti tavaline veebileht. Brauseri lehed ja mõned kaitstud saidid pole saadaval."
+  },
+  "error": {
+    "message": "Muudatusi ei saanud salvestada. Proovi uuesti."
+  },
+  "removed": {
+    "message": "Efektid eemaldatud. Sinu sõnad on alles."
+  },
+  "privacy": {
+    "message": "Kontot pole vaja. Reeglid jäävad sellesse brauserisse."
+  },
+  "optionsTitle": {
+    "message": "Kohandatud värvid"
+  },
+  "backgroundColor": {
+    "message": "Esiletõstmise taust"
+  },
+  "textColor": {
+    "message": "Teksti värv"
+  },
+  "shadowColor": {
+    "message": "Varju värv"
+  },
+  "useShadow": {
+    "message": "Lisa tekstivari"
+  },
+  "saveColors": {
+    "message": "Salvesta värvid"
+  },
+  "restoreColors": {
+    "message": "Taasta vaikeväärtused"
+  },
+  "saved": {
+    "message": "Värvid salvestatud."
+  },
+  "returnTab": {
+    "message": "Tagasi lehele"
+  },
+  "limitReached": {
+    "message": "Kuvatakse kuni 5000 vastet."
+  },
+  "amber": {
+    "message": "Merevaik"
+  },
+  "mint": {
+    "message": "Münt"
+  },
+  "sky": {
+    "message": "Taevasinine"
+  },
+  "rose": {
+    "message": "Roosa"
+  },
+  "lavender": {
+    "message": "Lavendel"
+  },
+  "termLimit": {
+    "message": "Kasuta igas loendis kuni 100 sõna või fraasi."
+  }
 }

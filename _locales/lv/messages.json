@@ -1,23 +1,131 @@
 {
-  "chromename": { "message": "Slēpt & Izcelt" },
-  "description": { "message": "\"Slēpt & Izcelt\" ļauj slēpt vai izcelt jebkurus teksta elementus tīmekļa lapās, lai tos ērti demonstrētu citiem." },
-  "defaulttitle": { "message": "Mainiet svarīga teksta redzamību" },
-  "header": { "message": "Slēpt & Izcelt paplašinājums" },
-  "info1": { "message": "Izmantojiet šo paplašinājumu, lai aizmiglotu vai izceltu konkrētu tekstu lapā. Atļaujiet teksta modifikāciju, lai piemērotu stilus." },
-  "info2": { "message": "Tīmekļa lapas teksts, kurā tiek atvērts šis uznirstošais logs, tiek modificēts." },
-  "enable": { "message": "Iespējot teksta modifikāciju:" },
-  "selectmode": { "message": "Izvēlieties režīmu:" },
-  "bluroption": { "message": "Aizmiglot" },
-  "highlightoption": { "message": "Izcelt" },
-  "placeholder": { "message": "Ievadiet atslēgvārdu modifikācijai" },
-  "info3": { "message": "Jūs varat mainīt krāsas. Pēc tam nepieciešams aizvērt iestatījumu lapu un atkārtoti atvērt šo uznirstošo logu vēlamajā lapā." },
-  "selectcolortext": { "message": "Izvēlieties teksta krāsu:" },
-  "selectcolorshadow": { "message": "Izvēlieties ēnas krāsu:" },
-  "applyrule": { "message": "Piemērot noteikumu" },
-  "optionstitle": { "message": "Krāsu iestatījumi" },
-  "optionsheader": { "message": "Izvēlieties krāsas" },
-  "optionsinfo": { "message": "Izvēlieties vēlamās krāsas, nospiediet \"Saglabāt\", aizveriet šo lapu un atkārtoti atveriet uznirstošo logu (šī paplašinājuma ikona pārlūkprogrammas augšējā labajā stūrī) vēlamajā lapā." },
-  "textcolor": { "message": "Teksta krāsa: " },
-  "shadowcolor": { "message": "Ēnas krāsa: " },
-  "savebutton": { "message": "Saglabāt" }
+  "chromename": {
+    "message": "Slēpt & Izcelt"
+  },
+  "defaulttitle": {
+    "message": "Slēpt & Izcelt"
+  },
+  "description": {
+    "message": "Aizmiglojiet vārdus un izceliet tekstu tīmekļa lapās ekrānuzņēmumiem, prezentācijām un lasīšanai."
+  },
+  "currentTab": {
+    "message": "Šī cilne"
+  },
+  "blurLabel": {
+    "message": "Aizmiglot šos vārdus"
+  },
+  "highlightLabel": {
+    "message": "Izcelt šos vārdus"
+  },
+  "termsHint": {
+    "message": "Atdaliet vārdus vai frāzes ar ; vai jaunu rindu."
+  },
+  "wholeWords": {
+    "message": "Veseli vārdi"
+  },
+  "matchCase": {
+    "message": "Reģistrjutīgs"
+  },
+  "colorsLabel": {
+    "message": "Krāsas"
+  },
+  "customColors": {
+    "message": "Pielāgot"
+  },
+  "previewLabel": {
+    "message": "Priekšskatījums"
+  },
+  "previewText": {
+    "message": "Svarīgs teksts"
+  },
+  "rememberSite": {
+    "message": "Atcerēties šai vietnei"
+  },
+  "apply": {
+    "message": "Lietot"
+  },
+  "applyClose": {
+    "message": "Lietot un aizvērt"
+  },
+  "pause": {
+    "message": "Pauze"
+  },
+  "resume": {
+    "message": "Turpināt"
+  },
+  "reset": {
+    "message": "Noņemt efektus"
+  },
+  "statusReady": {
+    "message": "Ievadiet vārdus un lietojiet."
+  },
+  "statusPaused": {
+    "message": "Apturēts šajā cilnē."
+  },
+  "noMatches": {
+    "message": "Šajā lapā nav atbilstību."
+  },
+  "matchCounts": {
+    "message": "Aizmigloti: $1 · Izcelti: $2"
+  },
+  "unavailable": {
+    "message": "Atveriet vai pārlādējiet parastu tīmekļa lapu. Pārlūkprogrammas lapas un dažas aizsargātas vietnes nav pieejamas."
+  },
+  "error": {
+    "message": "Neizdevās saglabāt izmaiņas. Mēģiniet vēlreiz."
+  },
+  "removed": {
+    "message": "Efekti noņemti. Jūsu vārdi ir saglabāti."
+  },
+  "privacy": {
+    "message": "Bez konta. Noteikumi paliek šajā pārlūkprogrammā."
+  },
+  "optionsTitle": {
+    "message": "Pielāgotas krāsas"
+  },
+  "backgroundColor": {
+    "message": "Izcēluma fons"
+  },
+  "textColor": {
+    "message": "Teksta krāsa"
+  },
+  "shadowColor": {
+    "message": "Ēnas krāsa"
+  },
+  "useShadow": {
+    "message": "Pievienot teksta ēnu"
+  },
+  "saveColors": {
+    "message": "Saglabāt krāsas"
+  },
+  "restoreColors": {
+    "message": "Atjaunot noklusējumu"
+  },
+  "saved": {
+    "message": "Krāsas saglabātas."
+  },
+  "returnTab": {
+    "message": "Atgriezties lapā"
+  },
+  "limitReached": {
+    "message": "Tiek rādītas līdz 5000 atbilstībām."
+  },
+  "amber": {
+    "message": "Dzintara"
+  },
+  "mint": {
+    "message": "Piparmētru"
+  },
+  "sky": {
+    "message": "Debeszila"
+  },
+  "rose": {
+    "message": "Rozā"
+  },
+  "lavender": {
+    "message": "Lavandas"
+  },
+  "termLimit": {
+    "message": "Katrā sarakstā izmantojiet līdz 100 vārdiem vai frāzēm."
+  }
 }

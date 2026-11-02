@@ -1,23 +1,131 @@
 {
-  "chromename": { "message": "Amaga i Ressalta" },
-  "description": { "message": "\"Amaga i Ressalta\" et permet ocultar o ressaltar qualsevol node de text a les pàgines web per facilitar la seva visualització a altres persones." },
-  "defaulttitle": { "message": "Modifica la visibilitat del text important" },
-  "header": { "message": "Extensió Amaga i Ressalta" },
-  "info1": { "message": "Utilitza aquesta extensió per difuminar o ressaltar text específic a la pàgina. Permet la modificació del text per aplicar estils." },
-  "info2": { "message": "El text de la pàgina web on s'ha activat aquest pop-up es modificarà." },
-  "enable": { "message": "Activa la modificació del text:" },
-  "selectmode": { "message": "Selecciona el mode:" },
-  "bluroption": { "message": "Difuminar" },
-  "highlightoption": { "message": "Ressaltar" },
-  "placeholder": { "message": "Introdueix la paraula clau a modificar" },
-  "info3": { "message": "Pots canviar els colors. Després, cal que tanquis la pàgina d'opcions i tornis a obrir aquest pop-up a la pàgina desitjada." },
-  "selectcolortext": { "message": "Selecciona el color del text:" },
-  "selectcolorshadow": { "message": "Selecciona el color de l'ombra:" },
-  "applyrule": { "message": "Aplica la regla" },
-  "optionstitle": { "message": "Opcions de color" },
-  "optionsheader": { "message": "Selecciona els colors" },
-  "optionsinfo": { "message": "Selecciona els colors desitjats, prem \"Desa\", tanca aquesta pàgina i torna a obrir el pop-up (icona d'aquest complement a la part superior dreta de la finestra del navegador) a la pàgina desitjada." },
-  "textcolor": { "message": "Color del text: " },
-  "shadowcolor": { "message": "Color de l'ombra: " },
-  "savebutton": { "message": "Desa" }
+  "chromename": {
+    "message": "Amaga i Ressalta"
+  },
+  "defaulttitle": {
+    "message": "Amaga i Ressalta"
+  },
+  "description": {
+    "message": "Difumina paraules i ressalta text en pàgines web per a captures de pantalla, presentacions i lectura."
+  },
+  "currentTab": {
+    "message": "Aquesta pestanya"
+  },
+  "blurLabel": {
+    "message": "Paraules per difuminar"
+  },
+  "highlightLabel": {
+    "message": "Paraules per ressaltar"
+  },
+  "termsHint": {
+    "message": "Separa paraules o frases amb ; o un salt de línia."
+  },
+  "wholeWords": {
+    "message": "Paraules senceres"
+  },
+  "matchCase": {
+    "message": "Distingeix majúscules"
+  },
+  "colorsLabel": {
+    "message": "Colors"
+  },
+  "customColors": {
+    "message": "Personalitza"
+  },
+  "previewLabel": {
+    "message": "Previsualització"
+  },
+  "previewText": {
+    "message": "Text important"
+  },
+  "rememberSite": {
+    "message": "Recorda per a aquest lloc"
+  },
+  "apply": {
+    "message": "Aplica"
+  },
+  "applyClose": {
+    "message": "Aplica i tanca"
+  },
+  "pause": {
+    "message": "Pausa"
+  },
+  "resume": {
+    "message": "Reprèn"
+  },
+  "reset": {
+    "message": "Elimina els efectes"
+  },
+  "statusReady": {
+    "message": "Introdueix paraules i aplica."
+  },
+  "statusPaused": {
+    "message": "En pausa en aquesta pestanya."
+  },
+  "noMatches": {
+    "message": "No hi ha coincidències en aquesta pàgina."
+  },
+  "matchCounts": {
+    "message": "$1 difuminades · $2 ressaltades"
+  },
+  "unavailable": {
+    "message": "Obre o recarrega una pàgina web normal. Les pàgines del navegador i alguns llocs protegits no estan disponibles."
+  },
+  "error": {
+    "message": "No s’han pogut desar els canvis. Torna-ho a provar."
+  },
+  "removed": {
+    "message": "Efectes eliminats. Es conserven les paraules."
+  },
+  "privacy": {
+    "message": "Sense compte. Les regles romanen en aquest navegador."
+  },
+  "optionsTitle": {
+    "message": "Colors personalitzats"
+  },
+  "backgroundColor": {
+    "message": "Fons del ressaltat"
+  },
+  "textColor": {
+    "message": "Color del text"
+  },
+  "shadowColor": {
+    "message": "Color de l’ombra"
+  },
+  "useShadow": {
+    "message": "Afegeix una ombra al text"
+  },
+  "saveColors": {
+    "message": "Desa els colors"
+  },
+  "restoreColors": {
+    "message": "Restaura els valors"
+  },
+  "saved": {
+    "message": "Colors desats."
+  },
+  "returnTab": {
+    "message": "Torna a la pàgina"
+  },
+  "limitReached": {
+    "message": "Es mostren fins a 5.000 coincidències."
+  },
+  "amber": {
+    "message": "Ambre"
+  },
+  "mint": {
+    "message": "Menta"
+  },
+  "sky": {
+    "message": "Blau cel"
+  },
+  "rose": {
+    "message": "Rosa"
+  },
+  "lavender": {
+    "message": "Lavanda"
+  },
+  "termLimit": {
+    "message": "Fes servir fins a 100 paraules o frases per llista."
+  }
 }
